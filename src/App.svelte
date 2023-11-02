@@ -3,7 +3,10 @@ import * as samples from './data/samples.js';
 import Movies from './lib/Movies.svelte';
 
 export let movies = samples.peliculas || [];
+export let actors = samples.actors || [];
 </script>
+
+<img src={actors['ChristopherLee'].photo} alt="">
 
 {#each movies as movie}
 	<div>
@@ -12,5 +15,6 @@ export let movies = samples.peliculas || [];
 	<h1>{movie.plot}</h1>
 	</div>
 {/each}
+
 
 
