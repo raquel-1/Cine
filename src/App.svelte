@@ -1,16 +1,14 @@
 <script>
-	import { Dashboard, Admin } from '$lib';
-	import { Menu } from '$utils';
+import * as samples from './data/samples.js';
+import Movies from './lib/movies.svelte';
 
-	let mainMenu = [
-		{ title: 'Admin', component: Admin },
-		{ title: 'Dashboard', component: Dashboard }
-	];
-	let activeMainMenu = 'Dashboard';
+export let movies = samples.peliculas || {};
 </script>
 
-<Menu
-	key="AppMenu"
-	bind:defaultActive={activeMainMenu}
-	menus={mainMenu}
-/>
+{#each movies as movie}
+	<Movies 
+	name={movie.name}  
+	/>
+{/each}
+
+
