@@ -6,7 +6,7 @@ export let movies = samples.peliculas || [];
 export let actors = samples.actors || [];
 </script>
 
-<img src={actors['ChristopherLee'].photo} alt="">
+<img src={actors['SamRiley'].photo} alt="">
 
 {#each movies as movie}
 	<div>
