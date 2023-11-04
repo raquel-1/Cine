@@ -7,8 +7,9 @@
     <div class="container">
       
           <a href="#home" class="item">Home</a>
-          <a href="#categorias" class="item">Categorias</a>
+          <a href="#estrenos" class="item">Estrenos</a>
           <a href="#peliculas" class="item">Peliculas</a>
+          <a href="#categorias" class="item">Categorias</a>
           <a href="#cine" class="item">Cine</a>
           <a href="#ventasanticipadas" class="item">Ventas Anitcipadas</a>
           <a href="#buscar" class="item">Buscar</a>

@@ -1,6 +1,7 @@
 <script>
-    import Movies from '../lib/Movies.svelte';
+  import Movies from '../lib/Movies.svelte';
   import Categorias from './Categorias.svelte';
+  import Estrenos from './Estrenos.svelte';
 </script>
 
 <div class="main">
@@ -8,6 +9,7 @@
     <Categorias />
   </div>
   <div class="section">
+    <Estrenos />
     <Movies />
   </div>
 </div>

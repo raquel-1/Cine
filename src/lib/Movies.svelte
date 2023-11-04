@@ -2,12 +2,33 @@
     import * as samples from '../data/samples.js';
     
     export let movies = samples.peliculas || [];
+
+    let estrenos = movies.slice(0, 20);
+
+
 </script>
 
 <div class="cartas">
 
-{#each movies as movie}
+{#each estrenos as movie}
 	<div class="carta">  
+
+        <div class="caja">
+        <div class="imagen">
+            <img class="imagen-pelicula" src={movie.thumbnail} alt="">
+        </div>
+
+        <div class="contenido">
+            <a id='nombre'>{movie.title}</a> 
+        </div>
+    </div>
+
+	</div>
+{/each}
+
+
+
+</div>
         <!-- 
         <img class="imagen-pelicula" src={movie.photo} alt="">
         <p class="titulo">{movie.name}</p>
@@ -25,21 +46,6 @@
             </li>
         {/each}
         </ul> -->
-        <div class="caja">
-        <div class="imagen">
-            <img class="imagen-pelicula" src={movie.thumbnail} alt="">
-        </div>
-
-        <div class="contenido">
-            <a id='nombre'>{movie.title}</a> 
-        </div>
-    </div>
-
-	</div>
-{/each}
-
-</div>
-
 
 
 <style>
