@@ -40,108 +40,182 @@
 
 <div>
   <h1>Estrenos</h1>
-  <div class="cartas">
+  <div class="categorias" id="categorias">
     {#each favorito as pelicula}
-      <div class="carta">
-        <div class="caja">
-          <div class="imagen">
+    <div class="card">
+      <div class="card-bg">
             <img class="imagen-pelicula" src={pelicula[0].thumbnail} alt="" />
-          </div>
+      </div>
 
-          <div class="contenido">
-            <a id="nombre">{pelicula[0].title}</a>
-          </div>
+      <div class="card-context">
+        <div class="dark-bg" />
+        <h2>{pelicula[0].title}</h2>
+        <p>
+          {pelicula[0].extract}
+        </p>
+        <button>Ver más</button>
         </div>
       </div>
     {/each}
   </div>
 </div>
 
+
+
 <style>
-  .cartas {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    overflow: hidden;
+  .categorias {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+      
   }
-  .carta {
-    position: relative;
-    width: 220px;
-    height: 340px;
-    box-shadow: inset 0.4rem 0.4rem 5px rgb(143, 103, 3),
-      inset -0.4rem -0.4rem 5px rgb(242, 181, 27), 0 0 0 4px darkgoldenrod,
-      0 0 0 4px darkgoldenrod, 0.4rem 0.4rem 5px rgb(113, 82, 4),
-      -0.4rem -0.4rem 5px rgb(242, 181, 27);
-
-    background-color: aliceblue;
-    border-radius: 15px;
-    margin: 2rem;
+  
+  .card {
+      position: relative;
+      min-width: 300px;
+      width: 300px;
+      height: 400px;
+      border-radius: 36px;
+      overflow: hidden;
+      margin: 20px;
   }
-  .caja {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-    border-radius: 15px;
-    background-color: aliceblue;
-    box-shadow: 0 10px 20px rgb(143, 103, 3);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    transition: 0.5s;
+  
+  
+  
+  .card .card-bg {
+      width: 100%;
+      height: 100%;
   }
-  .imagen {
-    overflow: hidden;
-    height: 80%;
-    width: 100%;
+  
+  .card .card-bg img {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+  
+      transition: .1s ease-out;
   }
-
-  img {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  
+  .card:hover .card-bg img {
+      transform: scale(1.05);
   }
-
-  .contenido {
-    border-top: white 2px solid;
-    background-color: white;
-    height: 20%;
-    width: 100%;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  
+  .card .card-context {
+  
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateY(68%);
+      transition: .2s ease-out;
   }
-
-  a {
-    color: darkgoldenrod;
-    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  
+  @media screen and (max-width: 600px){
+      .card{
+          min-width: 400px;
+          width: 400px;
+          height: 300px;
+      }
+      .card .card-context {
+          height: 50%;
+      }
   }
-  a::after {
-    content: "";
-    display: block;
-    background-color: darkgoldenrod;
-    width: 100%;
-    margin-top: 3px;
-    height: 3px;
-    clip-path: var(--clippy);
-    transition: clip-path 0.5s;
+  
+  .card:hover .card-context {
+      transform: translateY(0);
   }
-  a:hover {
-    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  
+  .card .card-context .dark-bg {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      transform: scale(1.2);
+      background: linear-gradient(
+          rgba(0, 0, 0, .4),
+          rgba(0, 0, 0, .9)   
+      );
+      filter: blur(20px);
+      transition: .2s ease-out;
   }
-
-  .carta:hover .caja {
-    transform: translateY(-30px);
-    box-shadow: 0 10px 40px rgb(93, 67, 2);
+  
+  .card .card-context h2 {
+      position: absolute;
+      left: 32px;
+      color: #fff;
   }
-</style>
+  
+  .card .card-context h2::after {
+      content: "";
+      position: relative;
+      display: block;
+      background-color: #fff;
+      width: 100%;
+      margin-top: 3px;
+      height: 3px;
+      transform: scaleX(0);/*para que el subrayyado no salga*/
+      transform-origin: left;/*para que la animacion salga de la izquierda*/
+      transition: transform 1s ease;
+  }
+  
+  .card:hover h2::after{
+      transform: scaleX(1);/*para que el subrayado Aparezca*/
+  }
+  
+  .card .card-context p {
+      position: absolute;
+      left: 32px;
+      top: 36px;
+      width: 82%;
+      line-height: 20px;
+      word-spacing: -2px;
+      color: #f9f9f9;
+      text-align: justify;
+      opacity: 0;
+      transition: .2s ease-out;
+  
+  }
+  
+  .card .card-context .atributes p {
+      position: relative;
+      left: 32px;
+      top: 36px;
+      width: 50%;
+      height: 50%;
+      justify-items: center;
+      row-gap: 2rem;
+  }
+  
+  .card:hover .card-context p {
+      opacity: 1;
+  }
+  
+  .card .card-context button {
+      cursor: pointer;
+      position: absolute;
+      bottom: 32px;
+      right: 32px;
+      color: sandybrown;
+      background-color: transparent;
+      font-size: 18px;
+      padding: 5px 10px;
+      border-radius: 3px;
+      border-bottom-right-radius: 12px;
+      border-top-left-radius: 12px;
+      transition: .5s;
+      border: 1px solid sandybrown;
+      font-weight: 600;
+  }
+  
+  .card .card-context button:hover {
+      background: sandybrown;
+      color: black;
+  
+  }
+  </style>
