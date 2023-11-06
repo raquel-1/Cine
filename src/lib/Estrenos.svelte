@@ -33,17 +33,28 @@
 
   function buscarPeli(word) {
     return movies.filter((element) => element.title === word);
+
+    
   }
 
   function buscarActor(word) {
-    return movies.filter((element) => element.cast === word);
+
+    return movies.filter((element) => element.cast.find((actor) => actor === word));
+    
+
+
   }
+    
 
   let estrenos = map(estreno, buscarPeli);
 
   let actores = map(cast, buscarActor);
 
-  console.log("<<<<<<<<<<<<", actores);
+  let pelisactor = map(cast, buscarActor);
+
+  console.log(pelisactor);
+  //console.log("che", buscarActor("Will Smith"));
+  //console.log("<<<<<<<<<<<<", actores);
   //console.log(">>>>>>>", estrenos);
 
   //console.log(estrenos[0][0].title);

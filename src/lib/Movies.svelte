@@ -10,7 +10,7 @@
 <div>
   <h1>Peliculas</h1>
   <div class="cartas">
-    {#each movies as movie}
+    {#each estrenos as movie}
       <div class="carta">
         <div class="caja">
           <div class="imagen">
