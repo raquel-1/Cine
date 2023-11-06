@@ -4,12 +4,13 @@
   export let movies = samples.peliculas || [];
 
   let estrenos = movies.slice(0, 18);
+  
 </script>
 
 <div>
   <h1>Peliculas</h1>
   <div class="cartas">
-    {#each estrenos as movie}
+    {#each movies as movie}
       <div class="carta">
         <div class="caja">
           <div class="imagen">
