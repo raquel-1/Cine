@@ -6,8 +6,13 @@ import Footer from '$lib/Footer.svelte';
 //import * as samples from './data/samples.js';
 
 </script>
+<body>
+    <Header />
+    <Main />
+    <Footer/>
 
-<Header />
-<Main />
-<Footer/>
+</body>
 
+<style>
+  
+</style>

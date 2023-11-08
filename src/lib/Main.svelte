@@ -30,6 +30,9 @@
   grid-template-columns: 250px 1fr;
   gap: 48px;
   height: calc(100vh - 48px - 68px - 40px);
+  margin: 0;
+  margin-top: 0;
+  padding: 2rem;
 }
 
 @media (max-width: 900px) {

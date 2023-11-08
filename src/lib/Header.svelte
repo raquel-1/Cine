@@ -6,42 +6,44 @@
 </script>
 
 <header class="nav">
-  <div class="container" id={$darkmode ? "darkmode" : ""}>
- <div class="logo">
-      <Logo />
+    <div class="container" >
+      <div class="logo">
+        <Logo />
+      </div>
+      <div class="Settings">
+        <Ajustes />
+      </div>
     </div>
-    <div class="Settings">
-      <Ajustes />
+    <div class="prin" id={$darkmode ? "darkmode" : ""}>
+      <div class="search">
+        <Buscador />
+      </div>
     </div>
-  </div>
-  <div class="prin" id={$darkmode ? "darkmode" : ""}>
-    
-    <div class="search">
-      <Buscador />
-    </div>
-    
-  </div>
 </header>
 
 <style>
   /*Creamos un estilo global, el cual contendra los estilos de nuestro modo oscuro de la pagina*/
-  :global(.container#darkmode, .item#darkmode) {
-    background-color: white;
-    color: black;
-  }
+  
   :global(.prin#darkmode) {
     background-color: black;
     color: white;
   }
   .nav {
-    margin-bottom: 40px;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
 
   .prin {
-    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
   }
   .container {
     background-color: black;
