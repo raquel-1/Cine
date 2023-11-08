@@ -7,32 +7,19 @@
 
 <header class="nav">
   <div class="container" id={$darkmode ? "darkmode" : ""}>
-    <a href="#home" class="item" id={$darkmode ? "darkmode" : ""}>Home</a>
-    <a href="#estrenos" class="item" id={$darkmode ? "darkmode" : ""}
-      >Estrenos</a
-    >
-    <a href="#peliculas" class="item" id={$darkmode ? "darkmode" : ""}
-      >Peliculas</a
-    >
-    <a href="#categorias" class="item" id={$darkmode ? "darkmode" : ""}
-      >Categorias</a
-    >
-    <a href="#cine" class="item" id={$darkmode ? "darkmode" : ""}>Cine</a>
-    <a href="#ventasanticipadas" class="item" id={$darkmode ? "darkmode" : ""}
-      >Ventas Anitcipadas</a
-    >
-    <a href="#buscar" class="item" id={$darkmode ? "darkmode" : ""}>Buscar</a>
-  </div>
-  <div class="prin" id={$darkmode ? "darkmode" : ""}>
-    <div class="logo">
-      <Logo appName="Film" />
-    </div>
-    <div class="search">
-      <Buscador />
+ <div class="logo">
+      <Logo />
     </div>
     <div class="Settings">
       <Ajustes />
     </div>
+  </div>
+  <div class="prin" id={$darkmode ? "darkmode" : ""}>
+    
+    <div class="search">
+      <Buscador />
+    </div>
+    
   </div>
 </header>
 
