@@ -112,6 +112,7 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/3/34/The_Grudge_2020_Poster.jpeg",
     thumbnail_width: 220,
     thumbnail_height: 326,
+    stars:Math.random()*10,
   },
   {
     title: "Underwater",

@@ -4,11 +4,10 @@
   export let movies = samples.peliculas || [];
 
   let estrenos = movies.slice(0, 18);
-  
 </script>
 
 <div>
-  <h1>Peliculas</h1>
+  <h1>Peliculas (numero total de peliculas {count})</h1>
   <div class="cartas">
     {#each estrenos as movie}
       <div class="carta">
