@@ -44,7 +44,7 @@
 
 </script>
 
-<div>
+<div clas="estrenos">
   <h1>Estrenos</h1>
   <div class="categorias" id="categorias">
     {#each estrenos as pelicula}
@@ -67,6 +67,9 @@
 </div>
 
 <style>
+  .estrenos{
+    margin-bottom: 12rem;
+  }
   .categorias {
     min-height: 70vh;
     display: flex;

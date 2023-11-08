@@ -1,19 +1,22 @@
 <script>
 
-import Movies from "./Movies.svelte";
-import { darkmode } from "$stores/store";
+  import Movies from "./Movies.svelte";
+  import { darkmode } from "$stores/store";
+  
 </script>
-
-<footer class={$darkmode?'darkmode':''}>
-<Movies />
-</footer>
-
+  
+  <footer class={$darkmode?'darkmode':''}>
+  <Movies />
+  </footer>
+  
 <style>
-    footer{
-    padding:12rem;
-    }
-    :global(footer.darkmode) {
+  :global(footer.darkmode){
     background-color: black;
     color: white;
   }
+    footer{
+      padding-top: 27rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
 </style>
