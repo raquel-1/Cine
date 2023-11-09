@@ -14,7 +14,7 @@ function handleClick(){
 
 <style>
     .switch-container{
-        background-color: black;
+        background-color: #7BA9CD;
         width: 50px;
         height: 25px;
         border-radius: 30px;

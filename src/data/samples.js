@@ -5,7 +5,7 @@ export const cast = {
   },
   JohnnyDeep: {
     name: "Johnny Deep",
-    photo: "./actors/JohnnyDeep.jpg",
+    photo: "src/data/actors/JohnnyDepp.jpg",
   },
   BradPitt: {
     name: "Brad Pitt",
@@ -21,15 +21,15 @@ export const cast = {
   },
   KateWinslet: {
     name: "Kate Winslet",
-    photo: "/src/data/actors/KateWinslet.jpeg",
+    photo: "/src/data/actors/KateWinslet.jpg",
   },
   OrlandoBloom: {
     name: "Orlando Bloom",
-    photo: "/src/data/actors/OrlandoBloom.jpeg",
+    photo: "/src/data/actors/OrlandoBloom.webp",
   },
   ZoeSaldana: {
     name: "Zoe Saldaña",
-    photo: "src/data/actors/ZoeSaldana.jpeg",
+    photo: "src/data/actors/ZoeSaldana.webp",
   },
   ElleFanning: {
     name: "Elle Fanning",
@@ -75,6 +75,10 @@ export const cast = {
     name: "Christopher Lee",
     photo: "src/data/actors/ChristopherLee.jpeg",
   },
+  BenChaplin:{
+    name: "Ben Chaplin",
+    photo: "/src/data/actors/BenChaplin.webp"
+  }
 };
 
 export const genres = [

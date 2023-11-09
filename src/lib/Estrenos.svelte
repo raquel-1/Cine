@@ -1,47 +1,14 @@
 <script>
-  import * as samples from "../data/samples.js";
+  import * as samples from "../data/samples";
   export let movies = samples.peliculas || [];
-
-  var estreno = [
-    "Oppenheimer",
-    "Like a Boss",
-    "Barbie",
-    "Blue Beetle",
-    "The Marvels",
-    "Bad Boys for Life",
-  ];
-
-  var cast = ["Billy Porter", "Salma Hayek"];
-
-  function map(xs, f) {
-    var ys = [];
-    for (var i = 0; i < xs.length; i++) {
-      ys.push(f(xs[i]));
-    }
-    return ys;
-  }
-
-  function filter(xs, f) {
-    var ys = [];
-    for (var i = 0; i < xs.length; i++) {
-      if (f(xs[i])) {
-        ys.push(xs[i]);
-      }
-    }
-    return ys;
-  }
-
-  function buscarPeli(word) {
-    return movies.filter((element) => element.title === word);
-
-    
-  }
-
-    
-
-  let estrenos = map(estreno, buscarPeli);
-
-
+  
+  /*La función Math.random() nos devuelve un número aleatorio entre 0 y 0.9999..., lo que conseguimos al restarle 0.5 es que nos genere números negativos y positivos
+   para que la función sort() nos re-ordene el array de forma aleatoria colocando un elemento delante otro detrás.*/
+  let peliculasAleatorias = movies.sort(function () {
+    return Math.random() - 0.5;
+  });
+  /*Con slice seleccionamos los 6 primeros valores del array movies desordenado*/
+  let estrenos = peliculasAleatorias.slice(0, 6);
 </script>
 
 <div class="estrenos">
@@ -50,14 +17,14 @@
     {#each estrenos as pelicula}
       <div class="card">
         <div class="card-bg">
-          <img class="imagen-pelicula" src={pelicula[0].thumbnail} alt="" />
+          <img class="imagen-pelicula" src={pelicula.thumbnail} alt="" />
         </div>
 
         <div class="card-context">
           <div class="dark-bg" />
-          <h2>{pelicula[0].title}</h2>
+          <h2>{pelicula.title}</h2>
           <p>
-            {pelicula[0].extract}
+            {pelicula.extract}
           </p>
           <button>Ver más</button>
         </div>
@@ -67,7 +34,7 @@
 </div>
 
 <style>
-  .estrenos{
+  .estrenos {
     margin-bottom: 12rem;
     width: 100%;
   }

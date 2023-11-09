@@ -3,7 +3,7 @@
 
   export let movies = samples.peliculas || [];
 
-  let estrenos = movies.slice(0, 18);
+  let estrenos = movies.slice(6, 24);
   let count=movies.length;
 </script>
 

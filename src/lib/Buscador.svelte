@@ -1,9 +1,12 @@
 <script>
  import * as samples from '../data/samples';
   export let movies = samples.peliculas || [];
+  export let cast=samples.cast||{};
   //creamos una variable en la que iran las peliculas que coincidan con la busqueda
  let copyMovies=[];
  let copyCast=[];
+ //esto lo que hace es crear un array con las propiedades del objeto
+ const reparto = Object.values(cast);
 var countMovies=0;
 var countCast=0;
 function handleSearchTitle(e){
@@ -31,10 +34,10 @@ function handleSearchCast(e){
     }
     else{
     //Hacemos un filter por cada pelicula
-        const results=movies.filter(movie =>{
-            const cast=movie.cast;
+        const results=reparto.filter(c =>{
+            const nombre=c.name;
             //console.log(cast.filter(c=>c.search(p)>=0))
-            return cast.filter(c=>c.search(new RegExp(p,'i'))>=0);
+            return nombre.search(new RegExp(p,'i'))>=0;
         })
         copyCast=[...results]
         countCast=copyCast.length;
@@ -73,19 +76,18 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
     <h3>{countCast} resultados por reparto</h3>
   </div>
 <div class="cartas">
-    {#each copyCast as movie}
+    {#each copyCast as reparto}
       <div class="carta">
         <div class="caja">
           <div class="imagen">
-            <img class="imagen-pelicula" src={movie.thumbnail} alt="" />
+            <img class="imagen-pelicula" src={reparto.photo} alt="" />
           </div>
 
           <div class="contenido">
-            <a id="nombre">{movie.title}</a>
+            <a id="nombre">{reparto.name}</a>
           </div>
         </div>
       </div>
-      <a id="puntuacion">{movie.stars}</a>
     {/each}
   </div>
 </div>
