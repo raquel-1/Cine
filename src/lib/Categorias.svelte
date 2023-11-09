@@ -2,6 +2,8 @@
     import * as samples from '../data/samples.js';
     export let genres = samples.genres || [];
 
+   
+
 </script>
 
 <ul>
@@ -40,7 +42,7 @@ ul {
   text-transform: uppercase;
   font-size: 1rem;
   padding: 16px 0 13px;
-  background-image: linear-gradient(135deg, #3b82f6, #eab308);
+  background-image: linear-gradient(135deg, grey, var(--blue));
   color: #fafaf9;
   border-radius: 100px;
   cursor: pointer;

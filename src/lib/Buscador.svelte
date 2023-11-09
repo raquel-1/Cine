@@ -1,22 +1,26 @@
 <script>
  import * as samples from '../data/samples';
+ import Cartas from "./Cards.svelte";
+
   export let movies = samples.peliculas || [];
   export let cast=samples.cast||{};
+
   //creamos una variable en la que iran las peliculas que coincidan con la busqueda
  let copyMovies=[];
  let copyCast=[];
+
  //esto lo que hace es crear un array con las propiedades del objeto
  const reparto = Object.values(cast);
 var countMovies=0;
 var countCast=0;
 function handleSearchTitle(e){
+
     //creamos una variable para guardar el evento de la busqueda
     const p=e.target.value;
     if(p===''){
         copyMovies=[];
     }
-    else{
-    //Hacemos un filter por cada pelicula
+    else{//Hacemos un filter por cada pelicula
         const results=movies.filter(movie =>{
             const title=movie.title;
             //console.log(cast.filter(c=>c.search(p)>=0))
@@ -75,62 +79,63 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
   </div>
 
    -->
-  <div class="movie-cards">
-    {#each copyMovies as movie}
-      <div class="card">
-          <img src={movie.thumbnail} alt="" />
-          <div class="titlecage">
-              <h1 class="title">{movie.title}</h1>
-          </div>
-          <div class="content">
-            <button class="vermas">VER MÁS</button>
-            <div class="contentelements">
-              <h1 class="name">{movie.title}</h1>
-              <h3 class="info">
-                7.6/10 <i class="fa-solid fa-star"></i>
-                   | {movie.year} | 167 min
-              </h3>
-              <div class="allgenders">
-                {#each movie.genres as genre}
-                  <div class="gender drama"><p>{genre}</p></div>
-                {/each}
-              </div>
-            </div>
-          </div>
-      </div>  
-      {/each}
-  </div>
+
+   <Cartas   cartas={copyMovies}  />
 
 
 
-  <!--BUSCAR REPARO-->
+  <!--BUSCAR REPARTO-->
  <div>
     <h3>{countCast} resultados por reparto</h3>
   </div>
-<div class="cartas">
-    {#each copyCast as reparto}
-      <div class="carta">
-        <div class="caja">
-          <div class="imagen">
-            <img class="imagen-pelicula" src={reparto.photo} alt="" />
-          </div>
+    
+  <!--
+          <div class="cartas">
+            {#each copyCast as reparto}
+              <div class="carta">
+                <div class="caja">
+                  <div class="imagen">
+                    <img class="imagen-pelicula" src={reparto.photo} alt="" />
+                  </div>
 
-          <div class="contenido">
-            <a id="nombre">{reparto.name}</a>
+                  <div class="contenido">
+                    <a id="nombre">{reparto.name}</a>
+                  </div>
+                </div>
+              </div>
+            {/each}
           </div>
-        </div>
-      </div>
-    {/each}
-  </div>
-</div>
+  -->
 
+    <div class="movie-cards">
+      {#each copyCast as reparto}
+        <div class="card">
+            <img src={reparto.photo} alt="" />
+            <div class="titlecage">
+                <h1 class="title">{reparto.name}</h1>
+            </div>
+            <div class="content">
+              <button class="vermas">VER MÁS</button>
+              <div class="contentelements">
+                <h1 class="name">{reparto.name}</h1>
+                <div class="allfilms">
+                  nombre de pelis en las que aparece
+                </div>
+              </div>
+            </div>
+        </div>  
+        {/each}
+    </div>
+
+</div><!--END: <div class="search">-->
+  
 
 
 
 
 <style>
 
-
+  
 .movie-cards{
     width: 100%;
     min-height: 10vh;
@@ -138,7 +143,7 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
     flex-direction: row;
     flex-wrap: wrap;
     overflow: hidden;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card{
@@ -153,7 +158,7 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
 }
 
 .titlecage{
-    background-color: rgba(14, 14, 255, 0.669);
+    background-color: var(--blue);
     position: absolute;
     position: absolute;
     bottom: 0;
@@ -189,11 +194,11 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
     height: 100%;
     position: absolute;
     bottom: 0;
-    background: linear-gradient(rgba(0,0,0,0.2), blue);
+    background: linear-gradient(rgba(0,0,0,0.09), var(--blue));
     
     padding-left: 4%;
     padding-right: 4%;
-    padding-bottom: 4%;
+    padding-bottom: 6%;
     opacity: 0;
     transition: all 0.2s;
     overflow: hidden;
@@ -220,7 +225,7 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
     font-weight: 600;
 }
 
-.allgenders{
+.allfilms{
     width: 100%;
     min-height: 1.6rem;
     display: flex;
@@ -228,33 +233,7 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
     justify-content: flex-start;
     overflow: hidden;
     flex-wrap: wrap;
-}
-.gender{
-    font-size: 0.7rem;
-    color: white;
-    height: 1.5rem;
-    min-width: 4rem;
-    border-radius: 0.3rem;
-    border: none;
-    background-color: #404c4d;
-    cursor: pointer;
-    margin: 0.5rem;
-    text-align: center;
-    padding: 0.3rem;
-}
-
-.gender p{
-    font-size: 1rem;
-    font-weight: 600;
-    transform: translateY(-0.2rem);
-}
-
-.drama{
-    background-color: palevioletred;
-}
-
-.comedia{
-    background-color: orange;
+    padding: 4%;
 }
 
 .vermas{
@@ -268,11 +247,11 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
     width: 5rem;
     border-radius: 0.3rem;
     border: none;
-    background-color: blue;
+    background-color: var(--blue);
     cursor: pointer;
 }
 
-/*********************************************************************+*/
+/*************************************************************/
     input{
         width: 25rem;
     }

@@ -15,7 +15,6 @@
     color: white;
   }
     footer{
-      padding-top: 27rem;
       padding-left: 5rem;
       padding-right: 5rem;
     }

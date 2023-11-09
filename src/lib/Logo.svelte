@@ -8,11 +8,8 @@
 
 <style>
 img{
-    width: 20rem;
-    height: 10rem;
-    /*border-radius: 100%;
-    /*border-radius: 80px 80px 80px 80px;*/
-    padding: 20px;
+    width: 16rem;
+    height: 8rem;
     display: flex;
     justify-content: center;
 }

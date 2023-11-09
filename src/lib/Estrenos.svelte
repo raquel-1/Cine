@@ -35,7 +35,8 @@
 
 <style>
   .estrenos {
-    margin-bottom: 12rem;
+    padding: 2rem;
+    padding-top: 0;
     width: 100%;
   }
   .categorias {

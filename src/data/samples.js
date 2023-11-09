@@ -1,3 +1,33 @@
+export const genres = [
+  'Horror','Drama','Comedy',
+    'Family','Romance','Supernatural','Action','Science Fiction', 
+    'Crime', 'Mystery', 'Thriller','Adventure', 'Fantasy', 'War','Superhero', 
+    'Teen','Spy','Historical','Political','Animated', 'Sports', 'Musical', 'Biography',
+    'Noir', 'Dance', 'Documentary', 'Live Action',
+    'Erotic', 'Legal', 'Short', 'Satire','Found Footage',
+    'Western', 'Slasher', 'Martial Arts', 'Performance', 'Independent', 'Disaster',
+];
+
+/**
+ * export const genres = [
+  "Acción",
+  "Aventura",
+  "Catástrofe",
+  "Ciencia Ficción",
+  "Comedia",
+  "Documentales",
+  "Drama",
+  "Fantasía",
+  "Musicales",
+  "Romance",
+  "Suspense",
+  "Terror",
+];
+ */
+
+
+
+
 export const cast = {
   LeonardoDicaprio: {
     name: "Leonardo Dicaprio",
@@ -81,20 +111,6 @@ export const cast = {
   }
 };
 
-export const genres = [
-  "Acción",
-  "Aventura",
-  "Catástrofe",
-  "Ciencia Ficción",
-  "Comedia",
-  "Documentales",
-  "Drama",
-  "Fantasía",
-  "Musicales",
-  "Romance",
-  "Suspense",
-  "Terror",
-];
 
 export const peliculas = [
   {

@@ -28,18 +28,22 @@
 .main {
   display: grid;
   grid-template-columns: 250px 1fr;
-  gap: 48px;
-  height: calc(100vh - 48px - 68px - 40px);
+  min-height: 50vh;
   margin: 0;
-  margin-top: 0;
   padding: 2rem;
 }
 
 @media (max-width: 900px) {
   .main {
     grid-template-columns: 1fr;
-    /* Fixed in a video text overlay, to fix scrolling issue on small screens */
-    height: auto;
+    gap: 1rem;
+    padding-top: 0;
+  }
+  .aside{
+    width: 100%;
+  }
+  .section{
+    width: 100%;
   }
 }
 
