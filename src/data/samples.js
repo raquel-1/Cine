@@ -3087,20 +3087,6 @@ export const peliculas = [
     thumbnail_height: 322,
   },
   {
-    title: "Killian & the Comeback Kids",
-    year: 2020,
-    cast: [
-      "Taylor A. Purdee",
-      "John Donchak",
-      "Nathan Purdee",
-      "Kassie DePaiva",
-    ],
-    genres: ["Musical"],
-    href: "Killian_%26_the_Comeback_Kids",
-    extract:
-      "Killian & the Comeback Kids is a 2020 American folk-rock musical film written and directed by Taylor A. Purdee. The film stars Purdee, John Donchak, Nathan Purdee, and Kassie DePaiva along with an ensemble cast that features Maddi Jane and Lee Grant. Killian & the Comeback Kids follows a mixed-race musician who finds himself back in his struggling rural hometown after graduating from an expensive university. The film's screenplay and original music have been preserved by The Academy of Motion Pictures Arts and Sciences' permanent archive.",
-  },
-  {
     title: "Enola Holmes",
     year: 2020,
     cast: [
@@ -6905,22 +6891,6 @@ export const peliculas = [
     thumbnail_height: 385,
   },
   {
-    title: "Reboot Camp",
-    year: 2021,
-    cast: [
-      "David Koechner",
-      "Ed Begley Jr.",
-      "Chaz Bono",
-      "Ja Rule",
-      "Shar Jackson",
-      "Eric Roberts",
-    ],
-    genres: ["Comedy"],
-    href: "Reboot_Camp",
-    extract:
-      "Reboot Camp is an American satirical comedy film written and directed by Ivo Raza. It premiered at the 2020 Austin Film Festival where it won the Comedy Vanguard Audience Award for best comedy film. It also won best narrative feature award at the 2020 Maui Film Festival and best comedy at the 2021 Garden State Film Festival and best comedy at CINEQUEST 2021. The film features an ensemble cast including David Lipper, Lindsey Shaw, Keli Price, Ja Rule, Chaz Bono, David Koechner, Eric Roberts, Maya Stojan, Shar Jackson and Ed Begley Jr.",
-  },
-  {
     title: "Benny Loves You",
     year: 2021,
     cast: [
@@ -7216,18 +7186,6 @@ export const peliculas = [
     thumbnail_height: 384,
   },
   {
-    title: "Changing the Game",
-    year: 2021,
-    cast: [
-      "Mack Beggs",
-      "Sarah Rose Huckman",
-      "Terry Miller",
-      "Ngozi Nnaji",
-      "Andraya Yearwood",
-    ],
-    genres: [],
-  },
-  {
     title: "Spirit Untamed",
     year: 2021,
     cast: [
@@ -7305,33 +7263,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/e/ef/The-education-of-fredrick-fitzell-canadian-movie-poster-md.jpg",
     thumbnail_width: 259,
     thumbnail_height: 384,
-  },
-  {
-    title: "Under the Stadium Lights",
-    year: 2021,
-    cast: [
-      "Milo Gibson",
-      "Laurence Fishburne",
-      "Glenn Morshower",
-      "Noel Gugliemi",
-    ],
-    genres: ["Drama", "Sports"],
-    href: "Under_the_Stadium_Lights",
-    extract:
-      "Under the Stadium Lights is a 2021 sports drama film directed by Todd Randall and starring Milo Gibson and Laurence Fishburne. It is based on the nonfiction book Brother's Keeper by Al Pickett and Chad Mitchell. The film follows the players, coach, and team chaplain of a high school football team in Abilene, Texas.",
-  },
-  {
-    title: "Grace and Grit",
-    year: 2021,
-    cast: [
-      "Mena Suvari",
-      "Stuart Townsend",
-      "Frances Fisher",
-      "Rebekah Graf",
-      "Mariel Hemingway",
-      "Nick Stahl",
-    ],
-    genres: [],
   },
   {
     title: "Awake",
@@ -7530,12 +7461,6 @@ export const peliculas = [
     thumbnail_height: 378,
   },
   {
-    title: "DOMINO: Battle of the Bones",
-    year: 2021,
-    cast: ["David Arquette", "Snoop Dogg", "Tom Lister Jr.", "Carlito Olivero"],
-    genres: [],
-  },
-  {
     title: "Hitman's Wife's Bodyguard",
     year: 2021,
     cast: [
@@ -7661,41 +7586,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/2/23/The_Sparks_Brothers_Sundance_poster.jpeg",
     thumbnail_width: 259,
     thumbnail_height: 384,
-  },
-  {
-    title: "Truman & Tennessee: An Intimate Conversation",
-    year: 2021,
-    cast: ["Jim Parsons", "Zachary Quinto"],
-    genres: [],
-  },
-  {
-    title: "Stalker",
-    year: 2021,
-    cast: [
-      "Christine Ko",
-      "Vincent van Horn",
-      "Michael Joplin",
-      "Dusty Sorg",
-      "Carla Valentine",
-      "Scott Subiono",
-    ],
-    genres: [],
-  },
-  {
-    title: "Love Spreads",
-    year: 2021,
-    cast: [
-      "Alia Shawkat",
-      "Eiza González",
-      "Chanel Cresswell",
-      "Nick Helm",
-      "Dolly Wells",
-      "Tara Lee",
-    ],
-    genres: ["Comedy"],
-    href: "Love_Spreads_(film)",
-    extract:
-      "Love Spreads is a 2021 American-British comedy film written, directed, and produced by Jamie Adams. It stars Alia Shawkat, Eiza González, Chanel Cresswell, Nick Helm, Dolly Wells and Tara Lee.",
   },
   {
     title: "A Crime on the Bayou",
@@ -7886,12 +7776,6 @@ export const peliculas = [
     thumbnail_height: 387,
   },
   {
-    title: "Rollers",
-    year: 2021,
-    cast: ["Johnny Ray Gill", "Kate Cobb", "Vicky Jeudy", "Kevin Bigley"],
-    genres: [],
-  },
-  {
     title: "America: The Motion Picture",
     year: 2021,
     cast: [
@@ -8071,25 +7955,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/a/a2/Summer_of_Soul_2021.jpg",
     thumbnail_width: 258,
     thumbnail_height: 386,
-  },
-  {
-    title: "Till Death",
-    year: 2021,
-    cast: [
-      "Megan Fox",
-      "Eoin Macken",
-      "Callan Mulvey",
-      "Jack Roth",
-      "Aml Ameen",
-    ],
-    genres: ["Thriller"],
-    href: "Till_Death_(2021_film)",
-    extract:
-      "Till Death is a 2021 American thriller film directed by S.K. Dale in his directorial debut, from a screenplay by Jason Carvey. It stars Megan Fox, Callan Mulvey, Eoin Macken, Aml Ameen, and Jack Roth.",
-    thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/2/25/Till_Death_2021_Horror_Film_poster.png",
-    thumbnail_width: 258,
-    thumbnail_height: 387,
   },
   {
     title: "Let Us In",
@@ -8784,20 +8649,6 @@ export const peliculas = [
     thumbnail_height: 384,
   },
   {
-    title: "She Ball",
-    year: 2021,
-    cast: [
-      "Nick Cannon",
-      "Chris Brown",
-      "Jaliyuh Manuel",
-      "K.D. Aubert",
-      "Rebecca De Mornay",
-      "Tammy Brawner",
-      "Evan Ross",
-    ],
-    genres: [],
-  },
-  {
     title: "The Kissing Booth 3",
     year: 2021,
     cast: [
@@ -9143,21 +8994,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/2/25/Demonic_%282021_film%29.jpg",
     thumbnail_width: 259,
     thumbnail_height: 384,
-  },
-  {
-    title: "Risen",
-    year: 2021,
-    cast: [
-      "Caroline McQuade",
-      "Kenneth Trujillo",
-      "Wassim Hawat",
-      "Buffy Anne Littaua",
-      "Nicole Sharrock",
-      "Melissa Brattoni",
-      "Anthony Moisset",
-      "Marcus Johnson",
-    ],
-    genres: [],
   },
   {
     title: "The Witcher: Nightmare of the Wolf",
@@ -9616,12 +9452,6 @@ export const peliculas = [
     thumbnail_height: 381,
   },
   {
-    title: "Catch the Bullet",
-    year: 2021,
-    cast: ["Jay Pickett", "Peter Facinelli", "Tom Skerritt"],
-    genres: [],
-  },
-  {
     title: "Dating and New York",
     year: 2021,
     cast: [
@@ -9651,18 +9481,6 @@ export const peliculas = [
     thumbnail: "https://upload.wikimedia.org/wikipedia/en/9/9d/Bad_candy.jpg",
     thumbnail_width: 259,
     thumbnail_height: 384,
-  },
-  {
-    title: "Generation Wrecks",
-    year: 2021,
-    cast: [
-      "Bridget McGarry",
-      "Victoria Leigh",
-      "Okieriete Onaodowan",
-      "Emily Bergl",
-      "Heather Matarazzo",
-    ],
-    genres: [],
   },
   {
     title: "My Son",
@@ -13409,18 +13227,6 @@ export const peliculas = [
     thumbnail_height: 384,
   },
   {
-    title: "Green Ghost and the Masters of the Stone",
-    year: 2022,
-    cast: [
-      "Charlie Clark",
-      "Kuno Becker",
-      "Marko Zaror",
-      "Renée Victor",
-      "Danny Trejo",
-    ],
-    genres: [],
-  },
-  {
     title: "Corrective Measures",
     year: 2022,
     cast: ["Bruce Willis", "Michael Rooker"],
@@ -15035,19 +14841,6 @@ export const peliculas = [
     thumbnail_height: 385,
   },
   {
-    title: "They/Them",
-    year: 2022,
-    cast: [
-      "Kevin Bacon",
-      "Carrie Preston",
-      "Anna Chlumsky",
-      "Theo Germaine",
-      "Austin Crute",
-    ],
-    genres: [],
-    href: "They/Them_(film)",
-  },
-  {
     title: "Secret Headquarters",
     year: 2022,
     cast: [
@@ -15423,30 +15216,6 @@ export const peliculas = [
     thumbnail_height: 376,
   },
   {
-    title: "After Ever Happy",
-    year: 2022,
-    cast: [
-      "Hero Fiennes-Tiffin",
-      "Josephine Langford",
-      "Louise Lombard",
-      "Kiana Madeira",
-      "Chance Perdomo",
-      "Rob Estes",
-      "Carter Jenkins",
-      "Arielle Kebbel",
-      "Stephen Moyer",
-      "Mira Sorvino",
-    ],
-    genres: ["Drama", "Romance"],
-    href: "After_Ever_Happy",
-    extract:
-      "After Ever Happy is a 2022 American romantic drama film directed by Castille Landon, from a screenplay by Sharon Soboil. Based on the 2015 novel of the same name by Anna Todd, it is a sequel to After We Fell, and the fourth overall installment in the After film series. The film stars Josephine Langford and Hero Fiennes Tiffin, reprising their roles as Tessa Young and Hardin Scott, respectively. The plot continues the premise of the three previous films.",
-    thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/6/63/AfterEverHappy.jpg",
-    thumbnail_width: 258,
-    thumbnail_height: 387,
-  },
-  {
     title: "Pinocchio",
     year: 2022,
     cast: [
@@ -15504,12 +15273,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/0/0a/LifemarkPoster.jpeg",
     thumbnail_width: 259,
     thumbnail_height: 384,
-  },
-  {
-    title: "Flight/Risk",
-    year: 2022,
-    cast: [],
-    genres: [],
   },
   {
     title: "Clerks III",
@@ -15786,36 +15549,6 @@ export const peliculas = [
     thumbnail_height: 387,
   },
   {
-    title: "Section Eight",
-    year: 2022,
-    cast: [
-      "Ryan Kwanten",
-      "Dolph Lundgren",
-      "Dermot Mulroney",
-      "Mickey Rourke",
-      "Scott Adkins",
-    ],
-    genres: ["Action"],
-    href: "Section_Eight_(film)",
-    extract:
-      "Section Eight is a 2022 American action film directed by Christian Sesma and starring Ryan Kwanten, Dolph Lundgren, Dermot Mulroney with Scott Adkins, Mickey Rourke, and Justin Furstenfeld.",
-  },
-  {
-    title: "Lou",
-    year: 2022,
-    cast: [
-      "Allison Janney",
-      "Jurnee Smollett",
-      "Logan Marshall-Green",
-      "Ridley Bateman",
-      "Matt Craven",
-    ],
-    genres: ["Action", "Thriller"],
-    href: "Lou_(2022_film)",
-    extract:
-      "Lou is a 2022 American action thriller film directed by Anna Foerster. The film stars Allison Janney, Jurnee Smollett, Logan Marshall-Green, Ridley Asha Bateman, and Matt Craven.",
-  },
-  {
     title: "On the Come Up",
     year: 2022,
     cast: [
@@ -16038,12 +15771,6 @@ export const peliculas = [
     thumbnail_height: 368,
   },
   {
-    title: "Hot Take: The Depp/Heard Trial",
-    year: 2022,
-    cast: ["Mark Hapka", "Megan Davis", "Mellisa Marty", "Mary Carrig"],
-    genres: [],
-  },
-  {
     title: "Mr. Harrigan's Phone",
     year: 2022,
     cast: [
@@ -16183,12 +15910,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/e/ed/Significant_Other_2022_poster.jpg",
     thumbnail_width: 250,
     thumbnail_height: 370,
-  },
-  {
-    title: "The Redeem Team",
-    year: 2022,
-    cast: ["LeBron James", "Dwyane Wade", "Mike Krzyzewski"],
-    genres: [],
   },
   {
     title: "Halloween Ends",
@@ -16771,15 +16492,6 @@ export const peliculas = [
     thumbnail_height: 384,
   },
   {
-    title: "The Minute You Wake Up Dead",
-    year: 2022,
-    cast: ["Cole Hauser", "Jaimie Alexander", "Morgan Freeman"],
-    genres: ["Noir", "Thriller"],
-    href: "The_Minute_You_Wake_Up_Dead",
-    extract:
-      "The Minute You Wake Up Dead is a 2022 American noir thriller film directed by Michael Mailer and starring Cole Hauser, Morgan Freeman and Jaimie Alexander.",
-  },
-  {
     title: "On the Line",
     year: 2022,
     cast: ["Mel Gibson", "Kevin Dillon"],
@@ -16940,23 +16652,6 @@ export const peliculas = [
     thumbnail_height: 360,
   },
   {
-    title: "Is That Black Enough for You?!?",
-    year: 2022,
-    cast: [
-      "Margaret Avery",
-      "Harry Belafonte",
-      "Charles Burnett",
-      "Suzanne De Passe",
-      "Laurence Fishburne",
-      "Whoopi Goldberg",
-      "Samuel L. Jackson",
-    ],
-    genres: ["Documentary"],
-    href: "Is_That_Black_Enough_for_You%3F!%3F",
-    extract:
-      "Is That Black Enough for You?!? is a 2022 documentary film and film essay written and directed by Elvis Mitchell. It examines the history, craft and legacy of African-American cinema—with a focus on the films released in the 1970s—and makes use of film excerpts, personal history, and recent interviews with artists such as Margaret Avery, Harry Belafonte, Charles Burnett, Laurence Fishburne, Whoopi Goldberg, Samuel L. Jackson, Suzanne de Passe, Glynn Turman, Billy Dee Williams, and Zendaya.",
-  },
-  {
     title: "Paradise City",
     year: 2022,
     cast: ["John Travolta", "Bruce Willis"],
@@ -17002,12 +16697,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/a/a7/A_Christmas_Story_Christmas_poster.png",
     thumbnail_width: 250,
     thumbnail_height: 370,
-  },
-  {
-    title: "Christmas with You",
-    year: 2022,
-    cast: ["Aimee Garcia", "Freddie Prinze Jr."],
-    genres: [],
   },
   {
     title: "She Said",
@@ -17184,20 +16873,6 @@ export const peliculas = [
     thumbnail_height: 370,
   },
   {
-    title: "Prancer: A Christmas Tale",
-    year: 2022,
-    cast: [
-      "James Cromwell",
-      "Sarah-Jane Potts",
-      "Aaron McCusker",
-      "Joseph Millson",
-    ],
-    genres: [],
-    href: "Prancer:_A_Christmas_Tale",
-    extract:
-      "Prancer: A Christmas Tale is a 2022 film and a remake of the 1989 film Prancer. It was produced by Raffaella De Laurentiis and written by Greg Taylor, who, respectively, also produced and wrote the original.",
-  },
-  {
     title: "Strange World",
     year: 2022,
     cast: [
@@ -17279,33 +16954,6 @@ export const peliculas = [
     thumbnail_height: 353,
   },
   {
-    title: "A Christmas Mystery",
-    year: 2022,
-    cast: [
-      "Violet McGraw",
-      "Eddie Cibrian",
-      "Christoph Sanders",
-      "Drew Powell",
-      "Lauren Lindsey Donzis",
-      "Oscar Nunez",
-      "Beau Bridges",
-    ],
-    genres: [],
-  },
-  {
-    title: "Holiday Harmony",
-    year: 2022,
-    cast: [
-      "Annelise Cepero",
-      "Jeremy Sumpter",
-      "Brooke Shields",
-      "Carla Jimenez",
-      "Sisanie",
-      "Michael Wiseman",
-    ],
-    genres: [],
-  },
-  {
     title: "The Noel Diary",
     year: 2022,
     cast: ["Justin Hartley", "Barrett Doss"],
@@ -17340,18 +16988,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/5/54/White_Noise_%282022_film%29.jpg",
     thumbnail_width: 250,
     thumbnail_height: 370,
-  },
-  {
-    title: "A Hollywood Christmas",
-    year: 2022,
-    cast: [
-      "Jessika Van",
-      "Josh Swickard",
-      "Tom Williamson",
-      "Emelia Hartford",
-      "Missi Pyle",
-    ],
-    genres: [],
   },
   {
     title: "Violent Night",
@@ -17607,19 +17243,6 @@ export const peliculas = [
     thumbnail_height: 370,
   },
   {
-    title: "5000 Blankets",
-    year: 2022,
-    cast: [
-      "Anna Camp",
-      "Rob Mayes",
-      "Carson Minniear",
-      "Kim Myers",
-      "Rod Hallett",
-      "Cindy Hogan",
-    ],
-    genres: [],
-  },
-  {
     title: "Avatar: The Way of Water",
     year: 2022,
     cast: [
@@ -17663,12 +17286,6 @@ export const peliculas = [
     thumbnail_height: 396,
   },
   {
-    title: "Wildcat",
-    year: 2022,
-    cast: [],
-    genres: [],
-  },
-  {
     title: "Babylon",
     year: 2022,
     cast: [
@@ -17684,7 +17301,7 @@ export const peliculas = [
     extract:
       "Babylon is a 2022 American epic period black comedy-drama film written and directed by Damien Chazelle. It features an ensemble cast including Brad Pitt, Margot Robbie, Diego Calva, Jean Smart, Jovan Adepo, and Li Jun Li. It chronicles the rise and fall of multiple characters during Hollywood's transition from silent to sound films in the late 1920s.",
     thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/d/d2/BabylonOfficialTheatricalPoster2022.jpeg",
+      "src/data/movies/babylon.jpg",
     thumbnail_width: 220,
     thumbnail_height: 326,
   },
@@ -18452,13 +18069,6 @@ export const peliculas = [
     thumbnail_height: 370,
   },
   {
-    title: "God's Time",
-    year: 2023,
-    cast: ["Ben Groh", "Dion Costelloe", "Liz Caribel Sierra"],
-    genres: [],
-    href: null,
-  },
-  {
     title: "Creed III",
     year: 2023,
     cast: [
@@ -18539,13 +18149,6 @@ export const peliculas = [
     thumbnail_height: 318,
   },
   {
-    title: "Hunt Her, Kill Her",
-    year: 2023,
-    cast: ["Natalie Terrazzino", "JC Oakley III", "Larry Bunton"],
-    genres: [],
-    href: null,
-  },
-  {
     title: "Unseen",
     year: 2023,
     cast: ["Midori Francis", "Jolene Purdy", "Missi Pyle"],
@@ -18622,18 +18225,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/7/78/Chang_can_dunk.png",
     thumbnail_width: 255,
     thumbnail_height: 378,
-  },
-  {
-    title: "Southern Gospel",
-    year: 2023,
-    cast: [
-      "Max Ehrich",
-      "Katelyn Nacon",
-      "J. Alphonse Nicholson",
-      "Emma Myers",
-    ],
-    genres: [],
-    href: null,
   },
   {
     title: "Shazam! Fury of the Gods",
@@ -18768,13 +18359,6 @@ export const peliculas = [
     thumbnail_height: 370,
   },
   {
-    title: "Pinball: The Man Who Saved the Game",
-    year: 2023,
-    cast: ["Mike Faist", "Crystal Reed", "Dennis Boutsikaris"],
-    genres: [],
-    href: null,
-  },
-  {
     title: "John Wick: Chapter 4",
     year: 2023,
     cast: [
@@ -18819,13 +18403,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Good_Person_poster.jpg",
     thumbnail_width: 258,
     thumbnail_height: 382,
-  },
-  {
-    title: "The Tutor",
-    year: 2023,
-    cast: ["Garrett Hedlund", "Noah Schnapp", "Victoria Justice"],
-    genres: [],
-    href: null,
   },
   {
     title: "Dungeons & Dragons: Honor Among Thieves",
@@ -18913,23 +18490,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/8/87/Spinning_gold_poster.png",
     thumbnail_width: 250,
     thumbnail_height: 370,
-  },
-  {
-    title: "Space Oddity",
-    year: 2023,
-    cast: [
-      "Kyle Allen",
-      "Alexandra Shipp",
-      "Madeline Brewer",
-      "Kevin Bacon",
-      "Simon Helberg",
-      "Carrie Preston",
-      "Arden Myrin",
-    ],
-    genres: ["Comedy", "Science Fiction", "Romance"],
-    href: "Space_Oddity_(film)",
-    extract:
-      "Space Oddity is an American romantic comedy science fiction film directed by Kyra Sedgwick.",
   },
   {
     title: "A Thousand and One",
@@ -19041,24 +18601,6 @@ export const peliculas = [
     thumbnail_height: 378,
   },
   {
-    title: "Praise This",
-    year: 2023,
-    cast: [
-      "Chloe Bailey",
-      "Anjelika Washington",
-      "Philip Fornah",
-      "Quavo",
-      "Tristan Wilds",
-      "Jekalyn Carr",
-      "Koryn Hawthorne",
-      "Druski",
-    ],
-    genres: ["Comedy", "Musical"],
-    href: "Praise_This",
-    extract:
-      "Praise This is a 2023 American musical comedy film directed by Tina Gordon and starring Chloe Bailey and Anjelika Washington.",
-  },
-  {
     title: "Showing Up",
     year: 2023,
     cast: [
@@ -19163,20 +18705,6 @@ export const peliculas = [
     thumbnail_height: 382,
   },
   {
-    title: "Beautiful Disaster",
-    year: 2023,
-    cast: [
-      "Dylan Sprouse",
-      "Virginia Gardner",
-      "Austin North",
-      "Libe Barer",
-      "Brian Austin Green",
-      "Rob Estes",
-    ],
-    genres: [],
-    href: null,
-  },
-  {
     title: "Renfield",
     year: 2023,
     cast: [
@@ -19246,33 +18774,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/8/83/Sweetwater_2023_Poster.png",
     thumbnail_width: 255,
     thumbnail_height: 378,
-  },
-  {
-    title: "Rare Objects",
-    year: 2023,
-    cast: [
-      "Katie Holmes",
-      "Alan Cumming",
-      "Julie Mayorga",
-      "Saundra Santiago",
-      "Derek Luke",
-    ],
-    genres: [],
-    href: null,
-  },
-  {
-    title: "Quasi",
-    year: 2023,
-    cast: [
-      "Jay Chandrasekhar",
-      "Kevin Heffernan",
-      "Steve Lemme",
-      "Paul Soter",
-      "Erik Stolhanske",
-      "Adrianne Palicki",
-    ],
-    genres: [],
-    href: null,
   },
   {
     title: "Evil Dead Rise",
@@ -19583,38 +19084,6 @@ export const peliculas = [
     thumbnail_height: 352,
   },
   {
-    title: "Hypnotic",
-    year: 2023,
-    cast: [
-      "Ben Affleck",
-      "Alice Braga",
-      "William Fichtner",
-      "J. D. Pardo",
-      "Hala Finley",
-      "Dayo Okeniyi",
-      "Jeff Fahey",
-      "Jackie Earle Haley",
-    ],
-    genres: ["Action", "Science Fiction", "Thriller"],
-    href: "Hypnotic_(2023_film)",
-    extract:
-      "Hypnotic is a 2023 American science fiction action thriller film co-written and directed by Robert Rodriguez. The film features an ensemble cast that includes Ben Affleck, Alice Braga, J. D. Pardo, Hala Finley, Dayo Okeniyi, Jeff Fahey, Jackie Earle Haley, and William Fichtner.",
-  },
-  {
-    title: "Crater",
-    year: 2023,
-    cast: [
-      "Isaiah Russell-Bailey",
-      "Mckenna Grace",
-      "Billy Barratt",
-      "Scott Mescudi",
-    ],
-    genres: ["Adventure", "Science Fiction"],
-    href: "Crater_(film)",
-    extract:
-      "Crater is an upcoming American coming-of-age science fiction adventure film directed by Kyle Patrick Alvarez from a screenplay by John Griffin and story by Griffin and Rpin Suwannath. It stars Isaiah Russell-Bailey, Mckenna Grace, Billy Barratt, Orson Hong, Thomas Boyce, and Scott Mescudi. The film is scheduled to be released on Disney+ on May 12, 2023.",
-  },
-  {
     title: "Knights of the Zodiac",
     year: 2023,
     cast: [
@@ -19684,27 +19153,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/f/f2/Fast_X_poster.jpg",
     thumbnail_width: 220,
     thumbnail_height: 348,
-  },
-  {
-    title: "White Men Can't Jump",
-    year: 2023,
-    cast: [
-      "Sinqua Walls",
-      "Jack Harlow",
-      "Teyana Taylor",
-      "Laura Harrier",
-      "Vince Staples",
-      "Andrew Schulz",
-      "Lance Reddick",
-    ],
-    genres: ["Comedy", "Sports"],
-    href: "White_Men_Can%27t_Jump_(2023_film)",
-    extract:
-      'White Men Can\'t Jump is an upcoming American sports comedy film directed by Charles "Calmatic" Kidd II and written by Kenya Barris and Doug Hall. It is a remake of the 1992 film of the same name. It stars Sinqua Walls and Jack Harlow in the lead roles, while Lance Reddick, Teyana Taylor, and Laura Harrier also in the supporting roles.',
-    thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/White_Men_Can%27t_Jump_2023_logo.png/320px-White_Men_Can%27t_Jump_2023_logo.png",
-    thumbnail_width: 320,
-    thumbnail_height: 207,
   },
   {
     title: "Master Gardener",
@@ -19784,22 +19232,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/6/6b/TheMachine2023poster.png",
     thumbnail_width: 184,
     thumbnail_height: 273,
-  },
-  {
-    title: "Kandahar",
-    year: 2023,
-    cast: [
-      "Gerard Butler",
-      "Ali Fazal",
-      "Olivia-Mai Barrett",
-      "Navid Negahban",
-      "Nina Toussaint-White",
-      "Travis Fimmel",
-    ],
-    genres: ["Action", "Thriller"],
-    href: "Kandahar_(2023_film)",
-    extract:
-      "Kandahar is an upcoming American action thriller film directed by Ric Roman Waugh, written by Mitchell LaFortune, and produced by Gerard Butler, who also stars in the film alongside Ali Fazal. The film is scheduled to be released in theaters on May 26, 2023, by Open Road Films.",
   },
   {
     title: "You Hurt My Feelings",
@@ -19908,46 +19340,6 @@ export const peliculas = [
     thumbnail_height: 384,
   },
   {
-    title: "Strays",
-    year: 2023,
-    cast: [
-      "Will Ferrell",
-      "Jamie Foxx",
-      "Will Forte",
-      "Isla Fisher",
-      "Randall Park",
-      "Josh Gad",
-      "Harvey Guillén",
-      "Rob Riggle",
-      "Brett Gelman",
-      "Jamie Demetriou",
-      "Sofia Vergara",
-    ],
-    genres: ["Comedy"],
-    href: "Strays_(2023_film)",
-    extract:
-      "Strays is an upcoming American comedy film directed and produced by Josh Greenbaum. The film stars Will Ferrell, Jamie Foxx, Will Forte, Isla Fisher, Randall Park, Josh Gad, Harvey Guillén, Rob Riggle, Brett Gelman, Jamie Demetriou, and Sofia Vergara.",
-    thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/6/62/Strays2023Poster.png",
-    thumbnail_width: 250,
-    thumbnail_height: 396,
-  },
-  {
-    title: "Flamin' Hot",
-    year: 2023,
-    cast: [
-      "Jesse Garcia",
-      "Annie Gonzalez",
-      "Dennis Haysbert",
-      "Matt Walsh",
-      "Tony Shalhoub",
-    ],
-    genres: ["Drama", "Biography"],
-    href: "Flamin%27_Hot",
-    extract:
-      "Flamin' Hot is a 2023 American biographical drama film directed by Eva Longoria, and written by Lewis Colick and Linda Yvette. It stars Jesse Garcia, Annie Gonzalez, Emilio Rivera, Dennis Haysbert, Matt Walsh, and Tony Shalhoub. It is based on the memoir A Boy, a Burrito and a Cookie: From Janitor to Executive by Richard Montañez, and on the life stories of Montañez and Judy Montañez.",
-  },
-  {
     title: "The Flash",
     year: 2023,
     cast: [
@@ -19989,7 +19381,7 @@ export const peliculas = [
     extract:
       "Elemental is an upcoming American computer-animated romantic comedy-drama film produced by Walt Disney Pictures and Pixar Animation Studios and distributed by Walt Disney Studios Motion Pictures. Directed by Peter Sohn and produced by Denise Ream, it is written by John Hoberg, Kat Likkel, Brenda Hsueh, and Sohn. The overall twenty-seventh feature film produced by the studio, the film stars the voices of Leah Lewis, Mamoudou Athie, Ronnie del Carmen, Shila Ommi, Wendi McLendon-Covey, Catherine O'Hara, Mason Wertheimer, Joe Pera, and Matt Yang King. Set in a world inhabited by anthropomorphic elements of nature, the story depicts the bond between a fire element Ember Lumen (Lewis) and a water element Wade Ripple (Athie), who cannot touch each other but discover how much they have in common.",
     thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/a/ac/Elemental_poster.jpg",
+      "src/data/movies/elemental.jpg",
     thumbnail_width: 259,
     thumbnail_height: 384,
   },
@@ -20029,21 +19421,6 @@ export const peliculas = [
     thumbnail_height: 326,
   },
   {
-    title: "Extraction 2",
-    year: 2023,
-    cast: [
-      "Chris Hemsworth",
-      "Golshifteh Farahani",
-      "Adam Bessa",
-      "Daniel Bernhardt",
-      "Tinatin Dalakishvili",
-    ],
-    genres: ["Action", "Thriller"],
-    href: "Extraction_2",
-    extract:
-      "Extraction 2 is an upcoming American action thriller film directed by Sam Hargrave and written by Joe Russo, based on the graphic novel Ciudad by Ande Parks, Joe Russo, Anthony Russo, Fernando León González, and Eric Skillman. A sequel to the 2020 film, Chris Hemsworth, Golshifteh Farahani and Adam Bessa reprise their roles, with Olga Kurylenko, Daniel Bernhardt and Tinatin Dalakishvili joining the cast.",
-  },
-  {
     title: "The Blackening",
     year: 2023,
     cast: [
@@ -20065,30 +19442,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/c/cf/The-blackening-poster.png",
     thumbnail_width: 255,
     thumbnail_height: 319,
-  },
-  {
-    title: "No Hard Feelings",
-    year: 2023,
-    cast: [
-      "Jennifer Lawrence",
-      "Andrew Barth Feldman",
-      "Laura Benanti",
-      "Natalie Morales",
-      "Matthew Broderick",
-    ],
-    genres: ["Comedy", "Teen", "Erotic"],
-    href: "No_Hard_Feelings_(2023_film)",
-    extract:
-      "No Hard Feelings is an upcoming American coming of age sex comedy film directed by Gene Stupnitsky from a screenplay he co-wrote with John Phillips. Jennifer Lawrence produces and stars alongside Andrew Barth Feldman. Appearing in supporting roles are Matthew Broderick, Laura Benanti, Natalie Morales, Scott MacArthur and Ebon Moss-Bachrach.",
-  },
-  {
-    title: "The Perfect Find",
-    year: 2023,
-    cast: ["Gabrielle Union", "Keith Powers", "Gina Torres", "Ts Madison"],
-    genres: ["Comedy", "Romance"],
-    href: "The_Perfect_Find",
-    extract:
-      "The Perfect Find is an upcoming American romantic comedy film written by Leigh Davenport and directed by Numa Perrier. It is based on the book of the same name by Tia Williams. The film stars Gina Torres, Keith Powers, and Gabrielle Union, who is also a co-producer.",
   },
   {
     title: "Indiana Jones and the Dial of Destiny",
@@ -20139,23 +19492,6 @@ export const peliculas = [
     thumbnail_height: 397,
   },
   {
-    title: "Harold and the Purple Crayon",
-    year: 2023,
-    cast: [
-      "Zachary Levi",
-      "Lil Rel Howery",
-      "Zooey Deschanel",
-      "Ravi Patel",
-      "Camille Guaty",
-      "Tanya Reynolds",
-      "Pete Gardner",
-    ],
-    genres: [],
-    href: "Harold_and_the_Purple_Crayon_(film)",
-    extract:
-      "Harold and the Purple Crayon is an upcoming American film directed by Carlos Saldanha, in his live-action directorial debut. It is based on the 1955 children’s book of the same name written by Crockett Johnson, and will star Zachary Levi, Lil Rel Howery, Zooey Deschanel, Ravi Patel, Camille Guaty, Tanya Reynolds, and Pete Gardner.",
-  },
-  {
     title: "Insidious: The Red Door",
     year: 2023,
     cast: ["Ty Simpkins", "Patrick Wilson", "Rose Byrne"],
@@ -20181,12 +19517,6 @@ export const peliculas = [
     thumbnail_height: 383,
   },
   {
-    title: "Biosphere",
-    year: 2023,
-    cast: ["Sterling K. Brown", "Mark Duplass"],
-    genres: [],
-  },
-  {
     title: "Mission: Impossible – Dead Reckoning Part One",
     year: 2023,
     cast: [
@@ -20210,24 +19540,6 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/e/ed/Mission-_Impossible_%E2%80%93_Dead_Reckoning_Part_One_poster.jpg",
     thumbnail_width: 261,
     thumbnail_height: 384,
-  },
-  {
-    title: "Theater Camp",
-    year: 2023,
-    cast: [
-      "Molly Gordon",
-      "Ben Platt",
-      "Noah Galvin",
-      "Jimmy Tatro",
-      "Patti Harrison",
-      "Ayo Edebiri",
-      "Alan Kim",
-      "Amy Sedaris",
-    ],
-    genres: ["Comedy"],
-    href: "Theater_Camp",
-    extract:
-      "Theater Camp is a 2023 American comedy film directed by Molly Gordon and Nick Lieberman in their directorial debuts, from a screenplay by Gordon, Lieberman, Ben Platt, and Noah Galvin. A feature-length adaptation of the 2020 short film of the same name, the film features an ensemble cast, led by Gordon, Platt, Galvin, Jimmy Tatro, Patti Harrison, Ayo Edebiri, Alan Kim, and Amy Sedaris. Will Ferrell serves as a producer under his Gloria Sanchez Productions banner.",
   },
   {
     title: "Oppenheimer",
@@ -20298,24 +19610,6 @@ export const peliculas = [
     thumbnail_height: 385,
   },
   {
-    title: "They Cloned Tyrone",
-    year: 2023,
-    cast: ["John Boyega", "Teyonah Parris", "Kiefer Sutherland", "Jamie Foxx"],
-    genres: ["Comedy", "Mystery", "Science Fiction"],
-    href: "They_Cloned_Tyrone",
-    extract:
-      "They Cloned Tyrone is an upcoming American science fiction comedy mystery film directed by Juel Taylor in his feature film directorial debut, from a screenplay by Taylor and Tony Rettenmaier. The film stars John Boyega, Teyonah Parris, Kiefer Sutherland, and Jamie Foxx. Foxx also serves as a producer of the film.",
-  },
-  {
-    title: "Cobweb",
-    year: 2023,
-    cast: ["Woody Norman", "Antony Starr", "Lizzy Caplan", "Cleopatra Coleman"],
-    genres: ["Horror"],
-    href: "Cobweb_(upcoming_American_film)",
-    extract:
-      "Cobweb is an upcoming American horror film directed by Samuel Bodin in his feature directorial debut. It stars Woody Norman, Antony Starr, Lizzy Caplan, and Cleopatra Coleman. The film's screenplay by Chris Thomas Devlin was included in the 2018 Black List.",
-  },
-  {
     title: "Haunted Mansion",
     year: 2023,
     cast: [
@@ -20339,71 +19633,6 @@ export const peliculas = [
     thumbnail_height: 326,
   },
   {
-    title: "Sympathy for the Devil",
-    year: 2023,
-    cast: ["Joel Kinnaman", "Nicolas Cage", "Kaiwi Lyman-Mersereau"],
-    genres: ["Horror"],
-    href: "Sympathy_for_the_Devil_(2023_film)",
-    extract:
-      "Sympathy for the Devil is an upcoming American psychological horror film written by Luke Paradise, directed by Yuval Adler and starring Joel Kinnaman and Nicolas Cage.",
-  },
-  {
-    title: "Teenage Mutant Ninja Turtles: Mutant Mayhem",
-    year: 2023,
-    cast: [
-      "Nicolas Cantu",
-      "Micah Abbey",
-      "Shamon Brown Jr.",
-      "Brady Noon",
-      "Jackie Chan",
-      "Ayo Edebiri",
-      "Ice Cube",
-      "Seth Rogen",
-      "John Cena",
-      "Hannibal Buress",
-      "Rose Byrne",
-      "Post Malone",
-      "Paul Rudd",
-      "Maya Rudolph",
-      "Natasia Demetriou",
-      "Giancarlo Esposito",
-    ],
-    genres: ["Animated", "Superhero"],
-    href: "Teenage_Mutant_Ninja_Turtles:_Mutant_Mayhem",
-    extract:
-      "Teenage Mutant Ninja Turtles: Mutant Mayhem is an upcoming American computer-animated superhero film directed by Jeff Rowe and co-directed by Kyler Spears, from a screenplay written by Brendan O'Brien. Based on the characters created by Kevin Eastman and Peter Laird, it serves as a reboot of the Teenage Mutant Ninja Turtles film series. It is also the first theatrical animated feature based on the property since TMNT (2007). In the film, after years of being sheltered from the human world, four mutated turtle brothers—Leonardo, Michelangelo, Donatello, and Raphael —set out to be accepted as normal teenagers while taking on a mysterious crime syndicate and an army of mutants. The ensemble voice cast includes Jackie Chan, Ayo Edebiri, Ice Cube, Seth Rogen, John Cena, Paul Rudd, Natasia Demetriou, Rose Byrne, Post Malone, Hannibal Buress, Maya Rudolph, and Giancarlo Esposito.",
-    thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/a/a2/Mutant_Mayhem_poster.jpeg",
-    thumbnail_width: 259,
-    thumbnail_height: 384,
-  },
-  {
-    title: "Meg 2: The Trench",
-    year: 2023,
-    cast: ["Jason Statham", "Sienna Guillory", "Cliff Curtis"],
-    genres: ["Science Fiction"],
-    href: "Meg_2:_The_Trench",
-    extract:
-      "Meg 2: The Trench is an upcoming science fiction film directed by Ben Wheatley, and written by Dean Georgaris, and Jon and Erich Hoeber, based on the 1999 book The Trench by Steve Alten. Serving as a sequel to the 2018 film The Meg, the film stars Jason Statham, Wu Jing, Sienna Guillory, Cliff Curtis, Skyler Samuels, Page Kennedy, Shuya Sophia Cai and Sergio Peris-Mencheta",
-  },
-  {
-    title: "Dreamin' Wild",
-    year: 2023,
-    cast: [
-      "Casey Affleck",
-      "Walton Goggins",
-      "Zooey Deschanel",
-      "Noah Jupe",
-      "Jack Dylan Grazer",
-      "Chris Messina",
-      "Beau Bridges",
-    ],
-    genres: ["Drama", "Biography"],
-    href: "Dreamin%27_Wild",
-    extract:
-      "Dreamin' Wild is a 2022 American biographical drama film, written, directed, and produced by Bill Pohlad. It follows the life of singer-musician brothers Donnie and Joe Emerson. It stars Casey Affleck, Walton Goggins, Zooey Deschanel, Noah Jupe, Jack Dylan Grazer, Chris Messina, and Beau Bridges.",
-  },
-  {
     title: "Gran Turismo",
     year: 2023,
     cast: [
@@ -20419,32 +19648,9 @@ export const peliculas = [
     extract:
       "Gran Turismo is an upcoming American biographical coming of age sports drama film directed by Neill Blomkamp from a screenplay by Jason Hall and Zach Baylin. Produced by Columbia Pictures, PlayStation Productions, Trigger Street Productions, and 2.0 Entertainment, the film is based on the video game series of the same name developed by Polyphony Digital. Also based on a true story, the film stars Archie Madekwe as Jann Mardenborough, a teenage Gran Turismo player aspiring to be a race car driver. It also stars David Harbour, Orlando Bloom, Darren Barnet, Geri Halliwell Horner, and Djimon Hounsou.",
     thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Gran_turismo_movie.jpg/320px-Gran_turismo_movie.jpg",
+      "src/data/movies/gran_turismo.jpg",
     thumbnail_width: 320,
     thumbnail_height: 180,
-  },
-  {
-    title: "The Last Voyage of the Demeter",
-    year: 2023,
-    cast: [
-      "Corey Hawkins",
-      "Liam Cunningham",
-      "Aisling Franciosi",
-      "David Dastmalchian",
-    ],
-    genres: ["Horror", "Supernatural"],
-    href: "The_Last_Voyage_of_the_Demeter",
-    extract:
-      'The Last Voyage of the Demeter is an upcoming American supernatural horror film directed by André Øvredal. It is an adaptation of "The Captain\'s Log", a chapter from the 1897 Bram Stoker novel Dracula. The film stars Corey Hawkins, Aisling Franciosi, Liam Cunningham, and David Dastmalchian.',
-  },
-  {
-    title: "Heart of Stone",
-    year: 2023,
-    cast: ["Gal Gadot", "Jamie Dornan", "Alia Bhatt", "Sophie Okonedo"],
-    genres: ["Action", "Spy", "Thriller"],
-    href: "Heart_of_Stone_(2023_film)",
-    extract:
-      "Heart of Stone is an upcoming American spy action thriller film directed by Tom Harper from a screenplay by Greg Rucka and Allison Schroeder and a story by Rucka. The film stars Gal Gadot, Jamie Dornan, and Alia Bhatt.",
   },
   {
     title: "Blue Beetle",
@@ -20488,15 +19694,6 @@ export const peliculas = [
     thumbnail_height: 394,
   },
   {
-    title: "Please Don't Destroy",
-    year: 2023,
-    cast: ["John Higgins", "Martin Herlihy"],
-    genres: ["Comedy"],
-    href: "Please_Don%27t_Destroy#Filmography",
-    extract:
-      "Please Don't Destroy is a comedy group in New York City consisting of Ben Marshall, John Higgins, and Martin Herlihy, who began collaborating as students at New York University. The group was originally founded in 2017 and based on an act titled Please Don't Destroy My Farm. The troupe performed monthly comedy shows, appeared at the New York Comedy Festival and produced sketch videos posted to YouTube. During the COVID-19 pandemic, they began creating shorter videos for TikTok and Twitter.",
-  },
-  {
     title: "The Hill",
     year: 2023,
     cast: ["Colin Ford", "Dennis Quaid", "Joelle Carter", "Scott Glenn"],
@@ -20510,42 +19707,6 @@ export const peliculas = [
     thumbnail_height: 377,
   },
   {
-    title: "Lift",
-    year: 2023,
-    cast: [
-      "Kevin Hart",
-      "Gugu Mbatha-Raw",
-      "Vincent D’Onofrio",
-      "Úrsula Corberó",
-      "Billy Magnussen",
-      "Jacob Batalon",
-      "Jean Reno",
-      "Sam Worthington",
-    ],
-    genres: ["Action", "Comedy", "Thriller"],
-    href: "Lift_(2023_film)",
-    extract:
-      "Lift is an upcoming American heist action comedy thriller film directed by F. Gary Gray, written by Dan Kunka and Jeremy Doner, and co-produced by and starring Kevin Hart with Gugu Mbatha-Raw, Vincent D’Onofrio, Úrsula Corberó, Billy Magnussen, Jacob Batalon, Jean Reno, and Sam Worthington.",
-  },
-  {
-    title: "They Listen",
-    year: 2023,
-    cast: ["John Cho", "Katherine Waterston"],
-    genres: ["Horror"],
-    href: "They_Listen",
-    extract:
-      "They Listen is an upcoming American horror film written and directed by Chris Weitz. It stars Katherine Waterston, John Cho and Lukita Maxwell. Jason Blum and Weitz produce through their Blumhouse Productions and Depth of Field banners respectively, alongside Andrew Miano.",
-  },
-  {
-    title: "The Equalizer 3",
-    year: 2023,
-    cast: ["Denzel Washington", "Dakota Fanning"],
-    genres: ["Action"],
-    href: "The_Equalizer_3",
-    extract:
-      "The Equalizer 3 is an upcoming American vigilante action film directed by Antoine Fuqua. It is the sequel to the 2018 film The Equalizer 2, which was based on the TV series of the same name. The film stars Denzel Washington, Dakota Fanning, Sonia Ammar and Remo Girone. Washington and Fanning reuniting on-screen for the first time since 2004's Man on Fire. It follows retired U.S. Marine and former CIA officer Robert McCall. The film is the fifth collaboration between Washington and Fuqua, following Training Day (2001), The Equalizer (2014), The Magnificent Seven (2016), and The Equalizer 2 (2018).",
-  },
-  {
     title: "The Nun 2",
     year: 2023,
     cast: ["Storm Reid", "Taissa Farmiga", "Anna Popplewell"],
@@ -20556,26 +19717,6 @@ export const peliculas = [
     thumbnail: "src/data/movies/TheNun.jpeg",
     thumbnail_width: 255,
     thumbnail_height: 377,
-  },
-  {
-    title: "My Big Fat Greek Wedding 3",
-    year: 2023,
-    cast: [
-      "Nia Vardalos",
-      "John Corbett",
-      "Louis Mandylor",
-      "Elena Kampouris",
-      "Maria Vacratsis",
-      "Andrea Martin",
-      "Elias Kacavas",
-      "Gia Carides",
-      "Joey Fatone",
-      "Melina Kotselou",
-    ],
-    genres: ["Comedy", "Romance"],
-    href: "My_Big_Fat_Greek_Wedding_3",
-    extract:
-      "My Big Fat Greek Wedding 3 is an upcoming American romantic comedy film written and directed by Nia Vardalos. The film stars Vardalos, John Corbett, Elena Kampouris, Andrea Martin, and Lainie Kazan. It is the third installment in the My Big Fat Greek Wedding series. Filming began on June 22, 2022 in Athens, Greece, and wrapped on August 10.",
   },
   {
     title: "A Haunting in Venice",
@@ -20600,97 +19741,6 @@ export const peliculas = [
     thumbnail_height: 216,
   },
   {
-    title: "Challengers",
-    year: 2023,
-    cast: ["Zendaya", "Mike Faist", "Josh O'Connor"],
-    genres: ["Comedy", "Sports", "Romance"],
-    href: "Challengers_(film)",
-    extract:
-      "Challengers is an upcoming American romantic sports comedy film directed by Luca Guadagnino from a screenplay by Justin Kuritzkes. Its cast includes Zendaya, Mike Faist, and Josh O'Connor.",
-  },
-  {
-    title: "The Expendables 4",
-    year: 2023,
-    cast: [
-      "Jason Statham",
-      "50 Cent",
-      "Megan Fox",
-      "Dolph Lundgren",
-      "Randy Couture",
-      "Tony Jaa",
-      "Iko Uwais",
-      "Jacob Scipio",
-      "Levy Tran",
-      "Andy García",
-      "Sylvester Stallone",
-    ],
-    genres: ["Action"],
-    href: "The_Expendables_4",
-    extract:
-      "The Expendables 4 is an upcoming American action film directed by Scott Waugh, with a script co-written by Kurt Wimmer, Tad Daggerhart and Max Adams, from an original story by Kurt Wimmer, Spenser Cohen and Tad Daggerhart. It is the fourth installment in The Expendables franchise and the sequel to The Expendables 3 (2014), starring an ensemble cast including Jason Statham, Dolph Lundgren, Randy Couture, and Sylvester Stallone reprising their roles from previous films, alongside 50 Cent, Megan Fox, Andy García, Tony Jaa, Jacob Scipio, Iko Uwais, Levy Tran and Eddie Hall.",
-  },
-  {
-    title: "The Book of Clarence",
-    year: 2023,
-    cast: [
-      "LaKeith Stanfield",
-      "Omar Sy",
-      "RJ Cyler",
-      "Benedict Cumberbatch",
-      "James McAvoy",
-      "Caleb McLaughlin",
-      "Anna Diop",
-      "David Oyelowo",
-      "Alfre Woodard",
-      "Marianne Jean-Baptiste",
-    ],
-    genres: [],
-    href: "The_Book_of_Clarence",
-    extract:
-      "The Book of Clarence is an upcoming American epic film written and directed by Jeymes Samuel. The film is due for release on September 22, 2023.",
-  },
-  {
-    title: "Next Goal Wins",
-    year: 2023,
-    cast: [
-      "Michael Fassbender",
-      "Oscar Kightley",
-      "David Fane",
-      "Beulah Koale",
-      "Lehi Falepapalangi",
-      "Semu Filipo",
-      "Uli Latukefu",
-      "Rachel House",
-      "Kaimana",
-      "Will Arnett",
-      "Elisabeth Moss",
-    ],
-    genres: ["Comedy", "Drama", "Sports"],
-    href: "Next_Goal_Wins_(2023_film)",
-    extract:
-      "Next Goal Wins is an upcoming sports comedy-drama film directed by Taika Waititi, who co-wrote the screenplay with Iain Morris. The film is based on the 2014 documentary of the same name by Mike Brett and Steve Jamison about Dutch-American coach Thomas Rongen's efforts to lead the American Samoa national football team, considered the weakest football team in the world, to qualification for the 2014 FIFA World Cup.",
-  },
-  {
-    title: "PAW Patrol: The Mighty Movie",
-    year: 2023,
-    cast: [
-      "Kristen Bell",
-      "Christian Convery",
-      "Mckenna Grace",
-      "Lil Rel Howery",
-      "James Marsden",
-      "Serena Williams",
-      "Taraji P. Henson",
-      "Kim Kardashian",
-      "Marsai Martin",
-      "Ron Pardo",
-    ],
-    genres: ["Action", "Adventure", "Animated", "Comedy"],
-    href: "PAW_Patrol:_The_Mighty_Movie",
-    extract:
-      "PAW Patrol: The Mighty Movie is an upcoming Canadian computer-animated action-adventure comedy film based on the television series PAW Patrol created by Keith Chapman. Produced by Spin Master Entertainment, the toy company behind the series, with animation provided by Mikros Image, and released by Paramount Pictures and Nickelodeon Movies, it is the sequel to the 2021 film PAW Patrol: The Movie and the second film under the Spin Master Entertainment banner. Directed by Cal Brunker and written by Bob Barlen, it features elements from the Mighty Pups sub-theme of the main show. In the film, the PAW Patrol pups, who are given superpowers when a magical meteor crash lands in Adventure City, must stop the supervillains when Mayor Humdinger escaped from prison and teams up with Victoria Vance by planning to steal the superpowers for themselves, before its too late.",
-  },
-  {
     title: "Kraven the Hunter",
     year: 2023,
     cast: [
@@ -20712,110 +19762,6 @@ export const peliculas = [
     thumbnail_height: 107,
   },
   {
-    title: "Killers of the Flower Moon",
-    year: 2023,
-    cast: [
-      "Leonardo DiCaprio",
-      "Robert De Niro",
-      "Jesse Plemons",
-      "Lily Gladstone",
-      "Brendan Fraser",
-      "John Lithgow",
-    ],
-    genres: ["Crime", "Drama", "Western"],
-    href: "Killers_of_the_Flower_Moon_(film)",
-    extract:
-      "Killers of the Flower Moon is an upcoming American Western crime drama film directed by Martin Scorsese, from a screenplay he co-wrote with Eric Roth, based on the best-selling 2017 non-fiction book Killers of the Flower Moon: The Osage Murders and the Birth of the FBI by David Grann. Its plot centers on a series of Oklahoma murders in the Osage Nation during the 1920s, committed after oil was discovered on tribal land. The film stars Leonardo DiCaprio, who also serves as an executive producer, alongside Jesse Plemons, Lily Gladstone, Brendan Fraser, John Lithgow and Robert De Niro. It marks the seventh collaboration between Scorsese and DiCaprio as well as the eleventh collaboration between Scorsese and De Niro.",
-  },
-  {
-    title: "True Love",
-    year: 2023,
-    cast: [
-      "John David Washington",
-      "Gemma Chan",
-      "Ralph Ineson",
-      "Allison Janney",
-      "Ken Watanabe",
-    ],
-    genres: ["Science Fiction"],
-    href: "True_Love_(2023_film)",
-    extract:
-      "True Love is an upcoming American science fiction film directed, written and co-produced by Gareth Edwards. The film stars John David Washington, Gemma Chan, Ralph Ineson, Allison Janney, and Ken Watanabe.",
-  },
-  {
-    title: "Untitled The Exorcist film",
-    year: 2023,
-    cast: ["Leslie Odom Jr.", "Ellen Burstyn", "Ann Dowd"],
-    genres: ["Horror", "Supernatural"],
-    href: "Untitled_The_Exorcist_film",
-    extract:
-      "The untitled The Exorcist film is an upcoming American supernatural horror film directed by David Gordon Green, with a screenplay he co-wrote with Peter Sattler, from a story he co-authored with Scott Teems and Danny McBride. It stars Leslie Odom Jr., Ellen Burstyn, Ann Dowd and Jennifer Nettles.",
-  },
-  {
-    title: "Damsel",
-    year: 2023,
-    cast: [
-      "Millie Bobby Brown",
-      "Angela Bassett",
-      "Robin Wright",
-      "Ray Winstone",
-      "Nick Robinson",
-      "Brooke Carter",
-      "Shohreh Aghdashloo",
-    ],
-    genres: ["Fantasy"],
-    href: "Damsel_(2023_film)",
-    extract:
-      "Damsel is an upcoming American fantasy film directed by Juan Carlos Fresnadillo, written by Dan Mazeau, and starring Millie Bobby Brown, Nick Robinson, Angela Bassett, Robin Wright, Ray Winstone, Brooke Carter, and Shohreh Aghdashloo. It is set for release on Netflix on October 13, 2023.",
-  },
-  {
-    title: "Ordinary Angels",
-    year: 2023,
-    cast: [
-      "Hilary Swank",
-      "Alan Ritchson",
-      "Emily Mitchell",
-      "Skywalker Hughes",
-    ],
-    genres: ["Drama"],
-    href: "Ordinary_Angels_(film)",
-    extract:
-      "Ordinary Angels is an upcoming American drama film directed by Jon Gunn and starring Hilary Swank, Alan Ritchson, Emily Mitchell, and Nancy Travis.",
-  },
-  {
-    title: "Dumb Money",
-    year: 2023,
-    cast: [
-      "Paul Dano",
-      "Sebastian Stan",
-      "Seth Rogen",
-      "Pete Davidson",
-      "Shailene Woodley",
-      "America Ferrera",
-      "Anthony Ramos",
-      "Vincent D'Onofrio",
-      "Dane DeHaan",
-      "Nick Offerman",
-      "Clancy Brown",
-    ],
-    genres: ["Comedy", "Drama", "Biography"],
-    href: "Dumb_Money",
-    extract:
-      "Dumb Money is an upcoming American biographical comedy-drama film directed by Craig Gillespie, from a script by Lauren Schuker Blum and Rebecca Angelo, based on the book The Antisocial Network: The GameStop Short Squeeze and the Ragtag Group of Amateur Traders That Brought Wall Street to Its Knees by Ben Mezrich. The film chronicles the GameStop short squeeze from January 2021, and stars an ensemble cast featuring Paul Dano, Sebastian Stan, Seth Rogen, and Pete Davidson. Teddy Schwarzman, Aaron Ryder, and Gillespie are producing the project. The film will be released theatrically on October 20, 2023, by Stage 6 Films and Sony Pictures Releasing.",
-  },
-  {
-    title: "The Underdoggs",
-    year: 2023,
-    cast: [
-      "Snoop Dogg",
-      "Tika Sumpter",
-      "Mike Epps",
-      "Andrew Schulz",
-      "George Lopez",
-    ],
-    genres: [],
-  },
-  {
     title: "Five Nights at Freddy's",
     year: 2023,
     cast: [
@@ -20832,62 +19778,6 @@ export const peliculas = [
       "src/data/movies/FiveNights.jpg",
     thumbnail_width: 259,
     thumbnail_height: 384,
-  },
-  {
-    title: "Saw X",
-    year: 2023,
-    cast: [
-      "Tobin Bell",
-      "Shawnee Smith",
-      "Synnøve Macody Lund",
-      "Steven Brand",
-      "Michael Beach",
-    ],
-    genres: ["Horror"],
-    href: "Saw_X",
-    extract:
-      "Saw X is an upcoming American horror film directed by Kevin Greutert and written by Josh Stolberg and Peter Goldfinger. The film is the tenth installment overall in the Saw film series, and stars Tobin Bell, Shawnee Smith, Synnøve Macody Lund, Steven Brand, and Michael Beach.",
-  },
-  {
-    title: "Pain Hustlers",
-    year: 2023,
-    cast: [
-      "Emily Blunt",
-      "Chris Evans",
-      "Andy Garcia",
-      "Catherine O’Hara",
-      "Jay Duplass",
-      "Brian d’Arcy James",
-    ],
-    genres: ["Drama"],
-    href: "Pain_Hustlers",
-    extract:
-      "Pain Hustlers is an upcoming American conspiracy drama film directed by David Yates from a screenplay by Wells Tower, based on a 2018 New York Times Magazine article, \"The Pain Hustlers\", by Evan Hughes and his subsequent novel The Hard Sell released in 2022. It stars Emily Blunt, Chris Evans, Andy García, Catherine O'Hara, Jay Duplass, Brian d'Arcy James, and Chloe Coleman.",
-  },
-  {
-    title: "Dune: Part Two",
-    year: 2023,
-    cast: [
-      "Timothée Chalamet",
-      "Zendaya",
-      "Rebecca Ferguson",
-      "Josh Brolin",
-      "Stellan Skarsgård",
-      "Dave Bautista",
-      "Stephen McKinley Henderson",
-      "Charlotte Rampling",
-      "Javier Bardem",
-      "Florence Pugh",
-      "Austin Butler",
-      "Christopher Walken",
-      "Léa Seydoux",
-      "Souheila Yacoub",
-      "Tim Blake Nelson",
-    ],
-    genres: ["Science Fiction"],
-    href: "Dune:_Part_Two",
-    extract:
-      "Dune: Part Two is an upcoming American epic science fiction film directed by Denis Villeneuve from a screenplay by Villeneuve, Jon Spaihts, and Eric Roth. The direct sequel to the 2021 film, it is the second of a two-part adaptation of the 1965 novel Dune by Frank Herbert and will cover roughly the second half of the book. Timothée Chalamet, Rebecca Ferguson, Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley Henderson, Zendaya, Charlotte Rampling, and Javier Bardem reprise their roles from the first film, with Florence Pugh, Austin Butler, Christopher Walken, Léa Seydoux, Souheila Yacoub, and Tim Blake Nelson joining the ensemble cast.",
   },
   {
     title: "The Marvels",
@@ -20933,35 +19823,6 @@ export const peliculas = [
     thumbnail_height: 228,
   },
   {
-    title: "The Killer",
-    year: 2023,
-    cast: [
-      "Michael Fassbender",
-      "Charles Parnell",
-      "Arliss Howard",
-      "Sophie Charlotte",
-      "Tilda Swinton",
-    ],
-    genres: ["Action", "Noir", "Thriller"],
-    href: "The_Killer_(2023_film)",
-    extract:
-      "The Killer is an upcoming American neo-noir action thriller film directed by David Fincher and with a screenplay by Andrew Kevin Walker. The film is based on the French graphic novel series of the same name by Alexis Nolent and Luc Jacamon. The film stars Michael Fassbender, Charles Parnell, Arliss Howard, Sophie Charlotte, and Tilda Swinton.",
-  },
-  {
-    title: "The Holdovers",
-    year: 2023,
-    cast: [
-      "Paul Giamatti",
-      "Dominic Sessa",
-      "Da'Vine Joy Randolph",
-      "Carrie Preston",
-    ],
-    genres: ["Comedy", "Drama"],
-    href: "The_Holdovers",
-    extract:
-      "The Holdovers is an upcoming American comedy-drama film directed by Alexander Payne, written by David Hemingson and starring Paul Giamatti.",
-  },
-  {
     title: "The Hunger Games: The Ballad of Songbirds and Snakes",
     year: 2023,
     cast: [
@@ -20979,7 +19840,7 @@ export const peliculas = [
     extract:
       "The Hunger Games: The Ballad of Songbirds and Snakes is an upcoming American science fiction action film directed by Francis Lawrence from a screenplay by Michael Arndt and Michael Lesslie, based on the 2020 novel The Ballad of Songbirds and Snakes by Suzanne Collins. It is the fifth installment in The Hunger Games film series, serving as a prequel to The Hunger Games (2012). The film stars Tom Blyth, Rachel Zegler, Josh Andrés Rivera, Hunter Schafer, Jason Schwartzman, Burn Gorman, Peter Dinklage, and Viola Davis. Set 64 years before the first film, it follows the origins of Coriolanus Snow (Blyth) and his relationship with a young Hunger Games tribute Lucy Gray Baird (Zegler), which lead him on the path to becoming the tyrannical leader of Panem.",
     thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/b/b5/Hunger_games_the_ballad_of_songbirds_and_snakes.png",
+      "src/data/movies/the_hunger_games_the_ballad_of_songbirds_and_snakes.jpg",
     thumbnail_width: 255,
     thumbnail_height: 393,
   },
@@ -21009,39 +19870,6 @@ export const peliculas = [
     thumbnail_height: 397,
   },
   {
-    title: "A Family Affair",
-    year: 2023,
-    cast: [
-      "Nicole Kidman",
-      "Zac Efron",
-      "Joey King",
-      "Liza Koshy",
-      "Kathy Bates",
-    ],
-    genres: ["Comedy", "Romance"],
-    href: "A_Family_Affair_(2023_film)",
-    extract:
-      "A Family Affair is an upcoming American romantic comedy film directed by Richard LaGravenese and written by Carrie Solomon. The film stars Nicole Kidman, Zac Efron, Joey King, Liza Koshy, and Kathy Bates.",
-  },
-  {
-    title: "Thanksgiving",
-    year: 2023,
-    cast: ["Addison Rae", "Patrick Dempsey", "Gina Gershon"],
-    genres: ["Slasher"],
-    href: "Thanksgiving_(upcoming_film)",
-    extract:
-      "Thanksgiving is an upcoming American slasher film directed by Eli Roth and produced by Roger Birnbaum, from a screenplay written by Roth and Jeff Rendell. It is based on Roth's mock trailer of the same name from Grindhouse (2007). The film stars Addison Rae and Patrick Dempsey.",
-  },
-  {
-    title: "Wish",
-    year: 2023,
-    cast: ["Ariana DeBose", "Alan Tudyk"],
-    genres: ["Animated"],
-    href: "List_of_Walt_Disney_Animation_Studios_films#Upcoming_films",
-    extract:
-      'Walt Disney Animation Studios is an American animation studio headquartered in Burbank, California, the original feature film division of The Walt Disney Company. The studio\'s films are also often called "Disney Classics", or "Disney Animated Canon".',
-  },
-  {
     title: "Napoleon",
     year: 2023,
     cast: ["Joaquin Phoenix", "Vanessa Kirby", "Tahar Rahim"],
@@ -21052,51 +19880,6 @@ export const peliculas = [
     thumbnail: "src/data/movies/Napoleon.jpg",
     thumbnail_width: 320,
     thumbnail_height: 163,
-  },
-  {
-    title: "Leo",
-    year: 2023,
-    cast: [
-      "Adam Sandler",
-      "Bill Burr",
-      "Cecily Strong",
-      "Jason Alexander",
-      "Rob Schneider",
-    ],
-    genres: [],
-  },
-  {
-    title: "Leave the World Behind",
-    year: 2023,
-    cast: [
-      "Julia Roberts",
-      "Mahershala Ali",
-      "Ethan Hawke",
-      "Myha'la Herrold",
-      "Farrah Mackenzie",
-      "Charlie Evans",
-      "Kevin Bacon",
-    ],
-    genres: ["Thriller"],
-    href: "Leave_the_World_Behind_(film)",
-    extract:
-      "Leave the World Behind is an upcoming psychological thriller film written, directed and produced by Sam Esmail, based on the 2020 the novel of the same name by Rumaan Alam. The film stars Julia Roberts, Mahershala Ali, Ethan Hawke, Myha'la Herrold, Farrah Mackenzie, Charlie Evans, and Kevin Bacon.",
-  },
-  {
-    title: "Magazine Dreams",
-    year: 2023,
-    cast: [
-      "Jonathan Majors",
-      "Haley Bennett",
-      "Taylour Paige",
-      "Mike O'Hearn",
-      "Harrison Page",
-      "Harriet Sansom Harris",
-    ],
-    genres: ["Drama"],
-    href: "Magazine_Dreams",
-    extract:
-      "Magazine Dreams is a 2023 American drama film written and directed by Elijah Bynum. It stars Jonathan Majors, Haley Bennett, Taylour Paige, Mike O'Hearn, Harrison Page and Harriet Sansom Harris.",
   },
   {
     title: "Wonka",
@@ -21118,104 +19901,5 @@ export const peliculas = [
     thumbnail: "src/data/movies/Wonka.jpg",
     thumbnail_width: 320,
     thumbnail_height: 163,
-  },
-  {
-    title: "Aquaman and the Lost Kingdom",
-    year: 2023,
-    cast: [
-      "Jason Momoa",
-      "Amber Heard",
-      "Willem Dafoe",
-      "Patrick Wilson",
-      "Dolph Lundgren",
-      "Yahya Abdul-Mateen II",
-      "Temuera Morrison",
-      "Nicole Kidman",
-    ],
-    genres: ["Superhero"],
-    href: "Aquaman_and_the_Lost_Kingdom",
-    extract:
-      "Aquaman and the Lost Kingdom is an upcoming American superhero film based on the DC Comics character Aquaman. Produced by DC Studios, the Safran Company, and Atomic Monster Productions, and set for distribution by Warner Bros. Pictures, it is intended to be the sequel to Aquaman (2018), and the 15th and final installment in the DC Extended Universe (DCEU). The film is directed by James Wan from a screenplay written by David Leslie Johnson-McGoldrick, and stars Jason Momoa as Arthur Curry / Aquaman alongside Amber Heard, Willem Dafoe, Patrick Wilson, Dolph Lundgren, Yahya Abdul-Mateen II, Temuera Morrison, and Nicole Kidman.",
-    thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Aquaman_and_the_Lost_Kingdom_logo.jpg/320px-Aquaman_and_the_Lost_Kingdom_logo.jpg",
-    thumbnail_width: 320,
-    thumbnail_height: 163,
-  },
-  {
-    title: "Untitled Ghostbusters: Afterlife sequel",
-    year: 2023,
-    cast: [
-      "Mckenna Grace",
-      "Carrie Coon",
-      "Finn Wolfhard",
-      "Paul Rudd",
-      "Celeste O'Connor",
-      "Logan Kim",
-      "Bill Murray",
-      "Dan Aykroyd",
-      "Ernie Hudson",
-      "Sigourney Weaver",
-      "Annie Potts",
-      "Patton Oswalt",
-      "Kumail Nanjiani",
-    ],
-    genres: ["Comedy", "Supernatural"],
-    href: "Untitled_Ghostbusters:_Afterlife_sequel",
-    extract:
-      "The untitled Ghostbusters: Afterlife sequel is an upcoming American supernatural comedy film directed by Gil Kenan from a screenplay co-written by Jason Reitman and Kenan. It serves as the sequel to Ghostbusters: Afterlife (2021), and the fifth film in the Ghostbusters franchise. The film stars Finn Wolfhard, Mckenna Grace, Celeste O'Connor, Carrie Coon, Paul Rudd and Ernie Hudson reprising their roles, with new additions to the cast including Kumail Nanjiani, Patton Oswalt, James Acaster and Emily Alyn Lind.",
-  },
-  {
-    title: "Rebel Moon",
-    year: 2023,
-    cast: [
-      "Sofia Boutella",
-      "Charlie Hunnam",
-      "Ray Fisher",
-      "Djimon Hounsou",
-      "Jena Malone",
-      "Corey Stoll",
-      "Ed Skrein",
-      "Cleopatra Coleman",
-      "Fra Fee",
-      "Cary Elwes",
-      "Anthony Hopkins",
-    ],
-    genres: ["Science Fiction"],
-    href: "Rebel_Moon",
-    extract:
-      "Rebel Moon is an upcoming American epic space opera film directed by Zack Snyder from a screenplay he co-wrote with Shay Hatten and Kurt Johnstad, based on a story he also created with Johnstad. Produced by The Stone Quarry and Grand Electric, and distributed by Netflix. The film features an ensemble cast that includes Sofia Boutella, Charlie Hunnam, Ray Fisher, Djimon Hounsou, Jena Malone, Corey Stoll, Ed Skrein, Cleopatra Coleman, Fra Fee, Cary Elwes, and Anthony Hopkins.",
-  },
-  {
-    title: "Migration",
-    year: 2023,
-    cast: [],
-    genres: [],
-    href: "Migration_(2023_film)",
-    extract:
-      "This is a list of productions produced by Illumination, an American film and animation studio based in Santa Monica, California, United States. This includes feature films, television specials, shorts, and digital series. As of 2023, Illumination has released 13 feature films, which were all distributed by Universal Pictures, with their first being Despicable Me on July 9, 2010, and their latest being The Super Mario Bros. Movie on April 5, 2023.",
-  },
-  {
-    title: "The Color Purple",
-    year: 2023,
-    cast: [
-      "Fantasia Barrino",
-      "Colman Domingo",
-      "Corey Hawkins",
-      "Danielle Brooks",
-      "H.E.R.",
-      "Halle Bailey",
-      "Ciara",
-      "Aunjanue Ellis",
-      "Deon Cole",
-      "Elizabeth Marvel",
-      "Jon Batiste",
-      "Louis Gossett Jr.",
-      "David Alan Grier",
-      "Taraji P. Henson",
-    ],
-    genres: ["Drama", "Musical", "Historical"],
-    href: "The_Color_Purple_(2023_film)",
-    extract:
-      "The Color Purple is an upcoming American musical coming-of-age period drama film directed by Blitz Bazawule and adapted for the screen by Marcus Gardley from the 2005 stage musical of the same name, which is in turn based on Alice Walker's 1982 Pulitzer Prize-winning novel of the same name. It is the second film adaptation of the novel, following Steven Spielberg's 1985 film adaptation. Spielberg and Quincy Jones return to produce this version, along with the stage musical's producers Scott Sanders and Oprah Winfrey, the latter of whom also starred in the 1985 film as Sofia.",
   },
 ];
