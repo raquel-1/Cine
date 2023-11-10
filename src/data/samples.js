@@ -132,7 +132,7 @@ export const peliculas = [
       "https://upload.wikimedia.org/wikipedia/en/3/34/The_Grudge_2020_Poster.jpeg",
     thumbnail_width: 220,
     thumbnail_height: 326,
-    stars:Math.random()*10,
+    stars: Math.random() * 10,
   },
   {
     title: "Underwater",
@@ -19518,8 +19518,7 @@ export const peliculas = [
     href: "Guardians_of_the_Galaxy_Vol._3",
     extract:
       "Guardians of the Galaxy Vol. 3 is an upcoming American superhero film based on the Marvel Comics superhero team Guardians of the Galaxy, produced by Marvel Studios, and distributed by Walt Disney Studios Motion Pictures. It is intended to be the sequel to Guardians of the Galaxy (2014) and Guardians of the Galaxy Vol. 2 (2017), and the 32nd film in the Marvel Cinematic Universe (MCU). The film is written and directed by James Gunn and stars an ensemble cast featuring Chris Pratt, Zoe Saldaña, Dave Bautista, Karen Gillan, Pom Klementieff, Vin Diesel, Bradley Cooper, Sean Gunn, Chukwudi Iwuji, Will Poulter, Elizabeth Debicki, Maria Bakalova, and Sylvester Stallone. In the film, the Guardians embark on a mission to protect Rocket (Cooper).",
-    thumbnail:
-      "https://upload.wikimedia.org/wikipedia/en/3/30/Guardians_of_the_Galaxy_Vol_3_poster.jpg",
+    thumbnail: "src/data/movies/Guardians3.jpeg",
     thumbnail_width: 259,
     thumbnail_height: 384,
   },
@@ -19579,6 +19578,9 @@ export const peliculas = [
     href: "The_Mother_(2023_film)",
     extract:
       "The Mother is an upcoming American action drama film directed by Niki Caro with a screenplay by Misha Green, Andrea Berloff and Peter Craig, from a story by Green. The film stars Jennifer Lopez, Joseph Fiennes, Omari Hardwick, and Gael García Bernal.",
+    thumbnail: "src/data/movies/TheMother.jpg",
+    thumbnail_width: 282,
+    thumbnail_height: 352,
   },
   {
     title: "Hypnotic",
@@ -20161,6 +20163,9 @@ export const peliculas = [
     href: "Insidious:_The_Red_Door",
     extract:
       "Insidious: The Red Door is an upcoming American supernatural horror film directed by Patrick Wilson in his directorial debut, with a screenplay by Scott Teems from a story by series creator Leigh Whannell. The film is a direct sequel to Insidious (2010) and Insidious: Chapter 2 (2013), and serves as both the fifth installment in the Insidious franchise and the fifth installment in terms of chronology. Wilson, Rose Byrne, Ty Simpkins and Andrew Astor reprise their roles from the films.",
+    thumbnail: "src/data/movies/TheRedDoor.jpeg",
+    thumbnail_width: 259,
+    thumbnail_height: 383,
   },
   {
     title: "Joy Ride",
@@ -20548,6 +20553,9 @@ export const peliculas = [
     href: "The_Nun_2",
     extract:
       "The Nun 2 is an upcoming American gothic supernatural horror film directed by Michael Chaves and written by Akela Cooper, Ian Goldberg, and Richard Naing from a story by Cooper. It serves as the sequel to The Nun (2018) and the ninth installment in The Conjuring Universe franchise. The film stars Storm Reid, Taissa Farmiga, and Anna Popplewell. Wan and Peter Safran return as co-producers, with Judson Scott also serving as a producer.",
+    thumbnail: "src/data/movies/TheNun.jpeg",
+    thumbnail_width: 255,
+    thumbnail_height: 377,
   },
   {
     title: "My Big Fat Greek Wedding 3",
@@ -20820,6 +20828,10 @@ export const peliculas = [
     href: "Five_Nights_at_Freddy%27s_(film)",
     extract:
       "Five Nights at Freddy's is an upcoming American supernatural horror film directed by Emma Tammi, from a screenplay she co-wrote with Scott Cawthon and Seth Cuddeback, based on the video game franchise of the same name created and developed by Cawthon. It stars Josh Hutcherson, Matthew Lillard, Mary Stuart Masterson, Piper Rubio, Kat Conner Sterling, and Elizabeth Lail.",
+    thumbnail:
+      "src/data/movies/FiveNights.jpg",
+    thumbnail_width: 259,
+    thumbnail_height: 384,
   },
   {
     title: "Saw X",
@@ -21037,6 +21049,9 @@ export const peliculas = [
     href: "Napoleon_(2023_film)",
     extract:
       "Napoleon is an upcoming epic historical drama film directed and produced by Ridley Scott and written by David Scarpa. It stars Joaquin Phoenix as Napoleon and depicts the French leader's rise to power. The film is scheduled to be theatrically released by Sony Pictures Releasing on November 22, 2023, before streaming on Apple TV+ at a later date.",
+    thumbnail: "src/data/movies/Napoleon.jpg",
+    thumbnail_width: 320,
+    thumbnail_height: 163,
   },
   {
     title: "Leo",
@@ -21100,6 +21115,9 @@ export const peliculas = [
     href: "Wonka_(film)",
     extract:
       "Wonka is an upcoming musical fantasy film directed by Paul King, who co-wrote the screenplay with Simon Farnaby. The film serves as a prequel to the 1964 novel Charlie and the Chocolate Factory by Roald Dahl and stars Timothée Chalamet as the titular character, following his early days as an eccentric chocolatier. Keegan-Michael Key, Rowan Atkinson, Sally Hawkins, Olivia Colman, and Jim Carter star in supporting roles.",
+    thumbnail: "src/data/movies/Wonka.jpg",
+    thumbnail_width: 320,
+    thumbnail_height: 163,
   },
   {
     title: "Aquaman and the Lost Kingdom",
