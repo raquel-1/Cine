@@ -11,7 +11,7 @@
 
 
   <h1>Peliculas (numero total de peliculas {count})</h1>
-  <Cartas   cartas={movies}  />
+  <Cartas   cartas={estrenos}  />
     
   
 

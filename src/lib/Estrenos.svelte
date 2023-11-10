@@ -8,7 +8,7 @@
     return Math.random() - 0.5;
   });
   /*Con slice seleccionamos los 6 primeros valores del array movies desordenado*/
-  let estrenos = peliculasAleatorias.slice(0, 6);
+  let estrenos = peliculasAleatorias.slice(0, 20);
 </script>
 
 <div class="estrenos">
