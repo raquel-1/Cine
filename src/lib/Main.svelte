@@ -19,6 +19,7 @@
 
 
 
+
 <style>
    /*Creamos un estilo global, el cual contendra los estilos de nuestro modo oscuro de la pagina*/
   :global(.main#darkmode) {

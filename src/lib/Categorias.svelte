@@ -1,16 +1,20 @@
 <script>
     import * as samples from '../data/samples.js';
     export let genres = samples.genres || [];
+    
+    import { categoria } from "$stores/store";
+    
 
-   
-
+   //cuando apreto el boton se acyuliza la categooria
 </script>
+
+
 
 <ul>
 
 {#each genres as genre}
-<li  class="category">
-    <button class="btn btn-category">
+  <li  class="category">
+    <button on:click={() => (categoria.update(value => genre))}  class="btn btn-category">
       {genre}
     </button>
   </li>
@@ -18,6 +22,11 @@
 {/each}
 
 </ul>
+
+
+
+
+
 
 
 <style>
