@@ -1,6 +1,21 @@
 <script>
-
+import * as samples from '../data/samples.js';
 export let cartas;
+export let genreColorAssociations =samples.genreColorAssociations || [];
+
+
+function saberColor2(genero){
+    let color;
+    genreColorAssociations.forEach(function (array) {
+        if (array.genre == genero) {
+            color= array.color
+        }
+        });
+    return color;
+}
+
+console.log("saber color de horror= "+saberColor2('Horror'))
+
 
 </script>
 
@@ -23,7 +38,11 @@ export let cartas;
               </h3>
               <div class="allgenders">
                 {#each movie.genres as genre}
-                  <div class="gender drama"><p>{genre}</p></div>
+                  <div class="gender" style="background-color: {
+
+                    saberColor2(genre)
+
+                  };"><p style="color:black">{genre}</p></div>
                 {/each}
               </div>
             </div>

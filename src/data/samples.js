@@ -15,7 +15,8 @@ export const genres = [
   'War',
   'Superhero', 
   'Teen',
-  'Spy','Historical','Political','Animated', 'Sports', 'Musical', 'Biography',
+  'Spy',
+  'Historical','Political','Animated', 'Sports', 'Musical', 'Biography',
   'Noir', 'Dance', 'Documentary', 'Live Action',
   'Erotic', 'Legal', 'Short', 'Satire','Found Footage',
   'Western', 'Slasher', 'Martial Arts', 'Performance', 'Independent', 'Disaster',
@@ -31,6 +32,11 @@ export const colors=[
   '#6a5acd', '#a0522d', '#ff6347', '#d8bfd8', '#40e0d0', '#9acd32',
 
 ];
+
+export const genreColorAssociations = genres.map((genre, index) => ({
+  genre: genre,
+  color: colors[index],
+}));
 
 export const cast = {
   LeonardoDicaprio: {

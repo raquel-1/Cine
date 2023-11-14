@@ -1,27 +1,27 @@
 <script>
     import * as samples from '../data/samples.js';
-    export let genres = samples.genres || [];
-    export let colors = samples.genres || [];
-    
     import { categoria } from "$stores/store";
 
-    let countCat=genres.length;
-    let countColor=colors.length;
-    console.log(countCat,countColor);
+    export let genreColorAssociations =samples.genreColorAssociations || [];
+    
+  
+
+   
+
+console.log(genreColorAssociations);
     
 
-   //cuando apreto el boton se acyuliza la categooria
 </script>
 
 
 
 <ul>
 
-{#each genres as genre,index}
+{#each genreColorAssociations as {genre,color}}
   <li  class="category">
     <button on:click={() => (categoria.update(value => genre))}  
       class="btn btn-category" 
-      style="background-image: linear-gradient(135deg, grey, var(--blue));"
+      style="background-image: linear-gradient(135deg, {color}, var(--blue));"
     >
       {genre}
     </button>
