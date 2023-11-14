@@ -1,32 +1,36 @@
 export const genres = [
-  'Horror','Drama','Comedy',
-    'Family','Romance','Supernatural','Action','Science Fiction', 
-    'Crime', 'Mystery', 'Thriller','Adventure', 'Fantasy', 'War','Superhero', 
-    'Teen','Spy','Historical','Political','Animated', 'Sports', 'Musical', 'Biography',
-    'Noir', 'Dance', 'Documentary', 'Live Action',
-    'Erotic', 'Legal', 'Short', 'Satire','Found Footage',
-    'Western', 'Slasher', 'Martial Arts', 'Performance', 'Independent', 'Disaster',
+  'Horror',
+  'Drama',
+  'Comedy',
+  'Family',
+  'Romance',
+  'Supernatural',
+  'Action',
+  'Science Fiction', 
+  'Crime', 
+  'Mystery', 
+  'Thriller',
+  'Adventure', 
+  'Fantasy', 
+  'War',
+  'Superhero', 
+  'Teen',
+  'Spy','Historical','Political','Animated', 'Sports', 'Musical', 'Biography',
+  'Noir', 'Dance', 'Documentary', 'Live Action',
+  'Erotic', 'Legal', 'Short', 'Satire','Found Footage',
+  'Western', 'Slasher', 'Martial Arts', 'Performance', 'Independent', 'Disaster',
 ];
 
-/**
- * export const genres = [
-  "Acción",
-  "Aventura",
-  "Catástrofe",
-  "Ciencia Ficción",
-  "Comedia",
-  "Documentales",
-  "Drama",
-  "Fantasía",
-  "Musicales",
-  "Romance",
-  "Suspense",
-  "Terror",
+export const colors=[
+  '#ff0000','#ff00ff','#00ff00',
+  '#ffff00','#ff0000','#0000ff','	#00ffff','#ffa500', 
+  '#7fffd4', '#d2691e', '#8a2be2','#5f9ea0', '#ee82ee', '#708090','#1e90ff', 
+  '#ffb6c1','#d3d3d3','#20b2aa','#6b8e23','#00fa9a', '	#191970', '#00fa9a', '#48d1cc',
+  '#eee8aa', '#98fb98', '#afeeee', '	#dda0dd',
+  '#c71585', '#bc8f8f', '#fa8072', '#f4a460','#2e8b57',
+  '#6a5acd', '#a0522d', '#ff6347', '#d8bfd8', '#40e0d0', '#9acd32',
+
 ];
- */
-
-
-
 
 export const cast = {
   LeonardoDicaprio: {

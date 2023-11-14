@@ -1,8 +1,13 @@
 <script>
     import * as samples from '../data/samples.js';
     export let genres = samples.genres || [];
+    export let colors = samples.genres || [];
     
     import { categoria } from "$stores/store";
+
+    let countCat=genres.length;
+    let countColor=colors.length;
+    console.log(countCat,countColor);
     
 
    //cuando apreto el boton se acyuliza la categooria
@@ -12,9 +17,12 @@
 
 <ul>
 
-{#each genres as genre}
+{#each genres as genre,index}
   <li  class="category">
-    <button on:click={() => (categoria.update(value => genre))}  class="btn btn-category">
+    <button on:click={() => (categoria.update(value => genre))}  
+      class="btn btn-category" 
+      style="background-image: linear-gradient(135deg, grey, var(--blue));"
+    >
       {genre}
     </button>
   </li>
@@ -22,12 +30,6 @@
 {/each}
 
 </ul>
-
-
-
-
-
-
 
 <style>
 ul {
@@ -51,7 +53,6 @@ ul {
   text-transform: uppercase;
   font-size: 1rem;
   padding: 16px 0 13px;
-  background-image: linear-gradient(135deg, grey, var(--blue));
   color: #fafaf9;
   border-radius: 100px;
   cursor: pointer;
