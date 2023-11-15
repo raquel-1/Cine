@@ -3,9 +3,15 @@
   import Categorias from './Categorias.svelte';
   import Estrenos from './Estrenos.svelte';
   import * as samples from '../data/samples';
+  import Resultado from './Resultado.svelte';
   export let movies = samples.peliculas || [];
  let copyMovies=[...movies];
  import { darkmode } from "$stores/store";
+ import { categoria } from "$stores/store";
+
+
+
+
 </script>
 
 <div class="main" id={$darkmode?'darkmode':''}>
@@ -13,7 +19,11 @@
     <Categorias />
   </div>
   <div class="section">
-    <Estrenos />
+    {#if $categoria!=''}
+        <Resultado currentCategory={$categoria}/>
+    {:else}
+        <Estrenos />
+    {/if}
   </div>
 </div>
 
