@@ -33,8 +33,7 @@
     padding-right: 5rem;
   }
   .btn-category {
-  width: 20rem;
-  height: 50%;
+  height: 5rem;
   background-image: none;
 }
 
@@ -44,8 +43,8 @@
   font-family: 'Coiny', sans-serif;
   line-height: 1;
   text-transform: uppercase;
-  font-size: 1rem;
-  padding: 16px 0 13px;
+  font-size: 2rem;
+  padding: 16px 30px 13px;
   color: #fafaf9;
   border-radius: 100px;
   cursor: pointer;
@@ -54,7 +53,7 @@
 
 }
 .btn:hover {
-    transform: scale(110%) rotate(-2deg);
+    transform: scale(110%);
 }
 
 </style>
