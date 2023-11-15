@@ -8,7 +8,7 @@
 
    
 
-console.log(genreColorAssociations);
+//console.log(genreColorAssociations);
     
 
 </script>

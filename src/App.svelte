@@ -2,7 +2,7 @@
 
 import Header from './lib/Header.svelte';
 import Main from './lib/Main.svelte';
-import Footer from '$lib/Footer.svelte';
+import TodasPelis from '$lib/TodasPelis.svelte';
 //import * as samples from './data/samples.js';
 
 
@@ -18,7 +18,7 @@ export let catValue;
 <body>
     <Header />
     <Main/>
-    <Footer/>
+    <TodasPelis/>
 
 </body>
 

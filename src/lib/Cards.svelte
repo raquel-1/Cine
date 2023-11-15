@@ -14,7 +14,7 @@ function saberColor2(genero){
     return color;
 }
 
-console.log("saber color de horror= "+saberColor2('Horror'))
+//console.log("saber color de horror= "+saberColor2('Horror'))
 
 
 </script>
