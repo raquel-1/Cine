@@ -7,7 +7,8 @@ function handleClick(){
 </script>
 
 <div class="Switch">
-    <div class="switch-container">
+    <!--Si el modo es oscuro hacemos que el circulo se mueva-->
+    <div class={($darkmode?'switch-container on':'switch-container')}>
        <button class="circle" on:click={handleClick}></button>
     </div>
 </div>
@@ -28,4 +29,7 @@ function handleClick(){
         border-radius: 50%;
         transition: all 0.2s;
     }
+    .on .circle {
+    margin-left: 25px;
+  }
     </style>
