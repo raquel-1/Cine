@@ -5,7 +5,10 @@
 
   export let movies = samples.peliculas || [];
 
-  //let estrenos = movies.slice(6, 24);
+  
+
+  export let ordenados;
+
   let count=movies.length;
 </script>
 

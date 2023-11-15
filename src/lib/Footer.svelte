@@ -1,6 +1,26 @@
 <script>
   import Movies from "./Movies.svelte";
   import { darkmode } from "$stores/store";
+  import * as samples from "../data/samples.js";
+
+ let movies = samples.peliculas || [];
+
+let ordenAlfabetico= movies.sort((a, b) => {
+  const titleA = a.title.toUpperCase(); // Convertir a mayúsculas para ignorar mayúsculas y minúsculas
+  const titleB = b.title.toUpperCase();
+
+  if (titleA < titleB) {
+    return -1;
+  }
+  if (titleA > titleB) {
+    return 1;
+  }
+  // Los títulos son iguales
+  return 0;
+});
+
+ let ordenAno=movies.sort((a, b) => a.year - b.year);;
+
   var mostrar;
   function Mostrando(e) {
     mostrar=true;
@@ -16,8 +36,13 @@
 <footer class={$darkmode ? "darkmode" : ""}>
   
     {#if mostrar}
-    <button on:click={ocultando} class="btn btn-category" >Ocultar</button>
-    <Movies/>
+      <button on:click={ocultando} class="btn btn-category" >Ocultar</button>
+
+      <input type="radio" name="orden" value={1}> Alfabético
+
+      <input type="radio" name="orden" value={1}> Año
+      
+      <Movies ordenados="hola"/>
     {:else}
       <button on:click={Mostrando} class="btn btn-category" >Todas las peliculas</button>
     {/if}
