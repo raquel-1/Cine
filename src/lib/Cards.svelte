@@ -70,7 +70,7 @@ console.log("saber color de horror= "+saberColor2('Horror'))
 
   .movie-cards{
     width: 100%;
-    min-height: 10vh;
+    /*min-height: 10vh;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
