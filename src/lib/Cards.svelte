@@ -33,7 +33,7 @@ function saberColor2(genero){
             <div class="contentelements">
               <h1 class="name">{movie.title}</h1>
               <h3 class="info">
-                7.6/10 <i class="fa-solid fa-star"></i>
+                {movie.stars} <i class="fa-solid fa-star"></i>
                    | {movie.year} | 167 min
               </h3>
               <div class="allgenders">

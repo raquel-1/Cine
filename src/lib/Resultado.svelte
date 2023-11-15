@@ -35,7 +35,7 @@ console.log(filteredMovies);
 
 
     h1{
-        color:red;
+        color: var(--blue);
     }
 
 

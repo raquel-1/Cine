@@ -6,7 +6,7 @@
 </script>
 
 <header class="nav">
-    <div class="container" >
+    <div class="header" >
       <div class="logo">
         <Logo />
       </div>
@@ -39,7 +39,7 @@
     padding: 0;
   }
 
-  .container {
+  .header {
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -51,7 +51,7 @@
   }
 
   @media (max-width: 1380px) {
-    .container {
+    .header {
       display: flex;
       flex-direction: column;
       align-items: center;

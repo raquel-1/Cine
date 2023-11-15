@@ -12,7 +12,7 @@
 </script>
 
 <div class="estrenos">
-  <h1>Estrenos</h1>
+  <h1 style="color: var(--blue);">Estrenos</h1>
   <div class="categorias" id="categorias">
     {#each estrenos as pelicula}
       <div class="card">
