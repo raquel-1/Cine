@@ -57,28 +57,10 @@ Titulos:<input type="text" placeholder="Buscar..." on:input={handleSearchTitle}>
 Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
 <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="24"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
  <div>
+  {#if copyMovies.length> 0}
     <h3>{countMovies} resultados por titulo</h3>
+    {/if}
   </div>
-
-  <!--
-<div class="cartas">
-    {#each copyMovies as movie}
-      <div class="carta">
-        <div class="caja">
-          <div class="imagen">
-            <img class="imagen-pelicula" src={movie.thumbnail} alt="" />
-          </div>
-
-          <div class="contenido">
-            <a id="nombre">{movie.title}</a>
-          </div>
-        </div>
-      </div>
-      <a id="puntuacion">{movie.stars}</a>
-    {/each}
-  </div>
-
-   -->
 
    <Cartas   cartas={copyMovies}  />
 
@@ -86,26 +68,10 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
 
   <!--BUSCAR REPARTO-->
  <div>
+   {#if copyCast.length> 0}
     <h3>{countCast} resultados por reparto</h3>
+    {/if}
   </div>
-    
-  <!--
-          <div class="cartas">
-            {#each copyCast as reparto}
-              <div class="carta">
-                <div class="caja">
-                  <div class="imagen">
-                    <img class="imagen-pelicula" src={reparto.photo} alt="" />
-                  </div>
-
-                  <div class="contenido">
-                    <a id="nombre">{reparto.name}</a>
-                  </div>
-                </div>
-              </div>
-            {/each}
-          </div>
-  -->
 
     <div class="movie-cards">
       {#each copyCast as reparto}
@@ -130,15 +96,12 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
 </div><!--END: <div class="search">-->
   
 
-
-
-
 <style>
 
   
 .movie-cards{
     width: 100%;
-    min-height: 10vh;
+    min-height: 0vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
