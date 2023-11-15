@@ -34,7 +34,7 @@ function saberColor2(genero){
               <h1 class="name">{movie.title}</h1>
               <h3 class="info">
                 {movie.stars} <i class="fa-solid fa-star"></i>
-                   | {movie.year} | 167 min
+                   | {movie.year} | {movie.duration} min
               </h3>
               <div class="allgenders">
                 {#each movie.genres as genre}
