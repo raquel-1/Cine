@@ -15,10 +15,12 @@ import Cartas from "./Cards.svelte";
 
   function Mostrando(e) {
     mostrar=true;
+    movies.sort(() => Math.random() - 0.5);
   }
 
   function ocultando(e) {
     mostrar=false;
+     orden = "";
   }
 
   function onChange(event) {
@@ -58,7 +60,6 @@ import Cartas from "./Cards.svelte";
 
         <h1>Peliculas (número total de peliculas {count})</h1>
         <Cartas   cartas={movies}  />
-
       
     {:else}
       <button on:click={Mostrando} class="btn btn-category" >Todas las peliculas</button>
