@@ -1,9 +1,13 @@
 <script>
   import Movies from "./Movies.svelte";
   import { darkmode } from "$stores/store";
-  var mostrar=false
-  function handleClick(e) {
+  var mostrar;
+  function Mostrando(e) {
     mostrar=true;
+  }
+
+  function ocultando(e) {
+    mostrar=false;
   }
 
 
@@ -11,10 +15,11 @@
 
 <footer class={$darkmode ? "darkmode" : ""}>
   
-  {#if mostrar}
+    {#if mostrar}
+    <button on:click={ocultando} class="btn btn-category" >Ocultar</button>
     <Movies/>
     {:else}
-      <button on:click={handleClick} class="btn btn-category" >Todas las peliculas</button>
+      <button on:click={Mostrando} class="btn btn-category" >Todas las peliculas</button>
     {/if}
 </footer>
 
