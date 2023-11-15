@@ -47,6 +47,7 @@
     justify-content: space-between;
     padding: 1rem;
     border-right: 4px solid;
+    border-bottom: 0.5rem var(--blue) solid;
   }
 
   @media (max-width: 1380px) {
