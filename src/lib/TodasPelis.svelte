@@ -43,9 +43,13 @@ import Cartas from "./Cards.svelte";
 
     }else if(orden==="Anual"){
       movies = movies.sort((a, b) => b.year - a.year);
-    }
-    else if(orden==="Valoracion"){
+
+    }else if(orden==="Valoracion"){
       movies = movies.sort((a, b) => b.stars - a.stars);
+
+    }else if(orden==="Duracion"){
+      movies = movies.sort((a, b) => b.duration - a.duration);
+      
     }
 	}
 
@@ -62,6 +66,8 @@ import Cartas from "./Cards.svelte";
         <input type="radio"  checked={orden==="Anual"} on:change={onChange} value="Anual"> Año
 
         <input type="radio"  checked={orden==="Valoracion"} on:change={onChange} value="Valoracion"> Valoración
+
+        <input type="radio"  checked={orden==="Duracion"} on:change={onChange} value="Duracion"> Duración
 
         <h1 style="color: var(--blue);">Peliculas (número total de peliculas {count})</h1>
         <Cartas   cartas={movies}  />

@@ -19922,7 +19922,7 @@ export const peliculas = [
 
 export const peliculasConEstrellas=peliculas.forEach((element) => {
   let estrellas = (Math.random() * 9 + 1).toFixed(2);//con 2 decimales
-  let minutos = Math.floor(Math.random() * (210 - 90 + 1)) + 90;
+  let minutos = Math.floor(Math.random() * (240 - 80 + 1)) + 80;
 
   element.stars = parseFloat(estrellas);// añadimos propiedad "stars" a las peliculas
   element.duration = minutos;// añadimos propiedad "stars" a las peliculas
