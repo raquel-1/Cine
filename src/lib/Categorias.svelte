@@ -3,13 +3,6 @@
     import { categoria } from "$stores/store";
 
     export let genreColorAssociations =samples.genreColorAssociations || [];
-    
-  
-
-   
-
-//console.log(genreColorAssociations);
-    
 
 </script>
 

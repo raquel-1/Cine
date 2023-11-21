@@ -49,7 +49,7 @@ function handleSearchCast(e){
 }
 
 </script>
-
+<div class="prin" id={$darkmode ? "darkmode" : ""}>
 <div class="search">
 <!--El evento onInput nos permite, que mientras escribamos se active el evento, mientras que el evento onChange solo se activa cuando terminamos de escribir-->
 Titulos:<input type="text" placeholder="Buscar..." on:input={handleSearchTitle}>
@@ -94,7 +94,7 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
     </div>
 
 </div><!--END: <div class="search">-->
-  
+</div>
 
 <style>
 .svg-darkmode{

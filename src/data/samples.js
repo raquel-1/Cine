@@ -38,6 +38,110 @@ export const genreColorAssociations = genres.map((genre, index) => ({
   color: colors[index],
 }));
 
+
+export const directoresDeCine = [
+  "Steven Spielberg",
+  "Martin Scorsese",
+  "Quentin Tarantino",
+  "Christopher Nolan",
+  "Alfred Hitchcock",
+  "Stanley Kubrick",
+  "Francis Ford Coppola",
+  "Ridley Scott",
+  "James Cameron",
+  "Pedro Almodóvar",
+  "Woody Allen",
+  "Clint Eastwood",
+  "Akira Kurosawa",
+  "Hayao Miyazaki",
+  "Ang Lee",
+  "David Fincher",
+  "Coen Brothers (Joel and Ethan Coen)",
+  "Darren Aronofsky",
+  "Paul Thomas Anderson",
+  "Guillermo del Toro",
+  "Tim Burton",
+  "Quentin Tarantino",
+  "Spike Lee",
+  "David Lynch",
+  "Wes Anderson",
+  "Roman Polanski",
+  "Terrence Malick",
+  "George Lucas",
+  "Richard Linklater",
+  "David Cronenberg",
+  "Michael Bay",
+  "Peter Jackson",
+  "Sam Raimi",
+  "J.J. Abrams",
+  "Christopher McQuarrie",
+  "Denis Villeneuve",
+  "Alejandro González Iñárritu",
+  "Bong Joon-ho",
+  "Guy Ritchie",
+  "Robert Zemeckis",
+  "Zhang Yimou",
+  "Greta Gerwig",
+  "Taika Waititi",
+  "Ava DuVernay",
+  "Patty Jenkins",
+  "Christopher Nolan",
+  "Martin Scorsese",
+  "Francis Ford Coppola"
+];
+
+export const fotografosDeCine = [
+  "Roger Deakins",
+  "Emmanuel Lubezki",
+  "Janusz Kamiński",
+  "Robert Richardson",
+  "Hoyte van Hoytema",
+  "Seamus McGarvey",
+  "Darius Khondji",
+  "László Kovács",
+  "Gordon Willis",
+  "Haskell Wexler",
+  "Rachel Morrison",
+  "Vittorio Storaro",
+  "John Toll",
+  "Matthew Libatique",
+  "Linus Sandgren",
+  "Bruno Delbonnel",
+  "Caleb Deschanel",
+  "Wally Pfister",
+  "Phedon Papamichael",
+  "Rodrigo Prieto",
+  "Anthony Dod Mantle",
+  "Claro Velasquez",
+  "Charlotte Bruus Christensen",
+  "Greig Fraser",
+  "Newton Thomas Sigel",
+  "Benjamin Loeb",
+  "Dan Laustsen",
+  "Sayombhu Mukdeeprom",
+  "Roberto Schaefer",
+  "Ellen Kuras",
+  "Michael Ballhaus",
+  "Conrad L. Hall",
+  "Dante Spinotti",
+  "Christopher Doyle",
+  "Eduardo Serra",
+  "Edward Lachman",
+  "Philippe Rousselot",
+  "Guillermo Navarro",
+  "Dick Pope",
+  "John Alcott",
+  "Adriano Goldman",
+  "John Seale",
+  "Greig Fraser",
+  "Jan de Bont",
+  "Donald McAlpine",
+  "James Wong Howe",
+  "Sven Nykvist",
+  "Robert Elswit"
+];
+
+
 export const cast = {
   LeonardoDicaprio: {
     name: "Leonardo Dicaprio",
@@ -19915,9 +20019,13 @@ export const peliculas = [
 ];
 
 export const peliculasConEstrellas=peliculas.forEach((element) => {
-  let estrellas = parseFloat((Math.random() * 9 + 1).toFixed(2));//toFixed(2)con 2 decimales
-  let minutos = parseFloat((Math.random() * (240 - 80) + 80).toFixed(2));
+    let estrellas = parseFloat((Math.random() * 9 + 1).toFixed(2));//toFixed(2)con 2 decimales de 1 a 10
+    let minutos = parseFloat((Math.random() * (240 - 80) + 80).toFixed(2));//minutos entre 80 y 240
+    let nombredirector=directoresDeCine[Math.floor(Math.random() * directoresDeCine.length)];
+    let nombrefotografo=fotografosDeCine[Math.floor(Math.random() * fotografosDeCine.length)];
 
-  element.stars = estrellas;// añadimos propiedad "stars" a las peliculas
-  element.duration = minutos;// añadimos propiedad "duration" a las peliculas
+    element.stars = estrellas;// añadimos propiedad "stars" a las peliculas
+    element.duration = minutos;// añadimos propiedad "duration" a las peliculas
+    element.director =nombredirector;// añadimos propiedad "director" a las peliculas
+    element.photographer=nombrefotografo;// añadimos propiedad "photographer" a las peliculas
 });

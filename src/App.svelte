@@ -1,24 +1,28 @@
 <script>
-
 import Header from './lib/Header.svelte';
 import Main from './lib/Main.svelte';
+import Buscador from "$lib/Buscador.svelte";
 import TodasPelis from '$lib/TodasPelis.svelte';
-//import * as samples from './data/samples.js';
+import Vermas from '$lib/Vermas.svelte';
+import { vermas } from "$stores/store";
 
 
-import { categoria } from "$stores/store";
 
-export let catValue;
-
-    const unsubscribe = categoria.subscribe((value) => {
-      catValue = value;
-	  });
 
 </script>
 <body>
+
+    
     <Header />
-    <Main/>
-    <TodasPelis/>
+
+    {#if $vermas!=''}
+        <Vermas/>
+    {:else}
+        <Buscador/>
+        <Main/>
+        <TodasPelis/>
+    {/if}
+    
 
 </body>
 

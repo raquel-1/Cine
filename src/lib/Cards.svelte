@@ -1,4 +1,5 @@
 <script>
+import { vermas } from "$stores/store";
 import * as samples from '../data/samples.js';
 export let cartas;
 export let genreColorAssociations =samples.genreColorAssociations || [];
@@ -14,22 +15,18 @@ function saberColor2(genero){
     return color;
 }
 
-//console.log("saber color de horror= "+saberColor2('Horror'))
-
-
 </script>
 
 
 <div class="movie-cards">
     {#each cartas as movie}
-      <!--card 1-->
       <div class="card">
           <img src={movie.thumbnail} alt="" />
           <div class="titlecage">
               <h1 class="title">{movie.title}</h1>
           </div>
           <div class="content">
-            <button class="vermas">VER MÁS</button>
+            <button class="vermas" on:click={() => (vermas.update(value => movie.title))} >VER MÁS</button>
             <div class="contentelements">
               <h1 class="name">{movie.title}</h1>
               <h3 class="info">
@@ -38,11 +35,9 @@ function saberColor2(genero){
               </h3>
               <div class="allgenders">
                 {#each movie.genres as genre}
-                  <div class="gender" style="background-color: {
-
-                    saberColor2(genre)
-
-                  };"><p style="color:black">{genre}</p></div>
+                    <div class="gender" style="background-color: {saberColor2(genre)};">
+                        <p style="color:black">{genre}</p>
+                    </div>
                 {/each}
               </div>
             </div>

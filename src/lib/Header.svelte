@@ -1,8 +1,6 @@
 <script>
   import Ajustes from "./Ajustes.svelte";
-  import Buscador from "./Buscador.svelte";
   import Logo from "./Logo.svelte";
-  import { darkmode } from "$stores/store";
 </script>
 
 <header class="nav">
@@ -15,11 +13,6 @@
       </div>
       <div class="Settings">
         <Ajustes />
-      </div>
-    </div>
-    <div class="prin" id={$darkmode ? "darkmode" : ""}>
-      <div class="search">
-        <Buscador />
       </div>
     </div>
 </header>

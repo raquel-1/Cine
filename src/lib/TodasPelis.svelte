@@ -15,7 +15,7 @@ import Cartas from "./Cards.svelte";
 
   function Mostrando(e) {
     mostrar=true;
-    movies.sort(() => Math.random() - 0.5);
+    movies.sort(() => Math.random() - 0.5);//simpre que muestro me las desordena
   }
 
   function ocultando(e) {
@@ -50,8 +50,7 @@ import Cartas from "./Cards.svelte";
     }else if(orden==="ValoracionMejor"){
       movies = movies.sort((a, b) => b.stars - a.stars);
 
-    }
-    else if(orden==="ValoracionPeor"){
+    }else if(orden==="ValoracionPeor"){
       movies = movies.sort((a, b) => a.stars - b.stars);
 
     }else if(orden==="Duracionmayor"){
@@ -83,7 +82,7 @@ import Cartas from "./Cards.svelte";
 
         <input type="radio"  checked={orden==="Duracionmayor"} on:change={onChange} value="Duracionmayor"> Duración mayor
 
-        <input type="radio"  checked={orden==="Duracionmenor"} on:change={onChange} value="Duracionmenor"> Duración mayor
+        <input type="radio"  checked={orden==="Duracionmenor"} on:change={onChange} value="Duracionmenor"> Duración menor
 
         <h1 style="color: var(--blue);">Peliculas (número total de peliculas {count})</h1>
         <Cartas   cartas={movies}  />

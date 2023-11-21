@@ -5,5 +5,7 @@ export let darkmode=writable(false);
 
 export let categoria=writable('');
 
+export let vermas=writable('');
+
 
 
