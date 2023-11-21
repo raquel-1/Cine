@@ -41,14 +41,24 @@ import Cartas from "./Cards.svelte";
           return 0;
         });
 
-    }else if(orden==="Anual"){
+    }else if(orden==="Anualmoderno"){
       movies = movies.sort((a, b) => b.year - a.year);
 
-    }else if(orden==="Valoracion"){
+    }else if(orden==="Anualantiguo"){
+      movies = movies.sort((a, b) => a.year - b.year);
+
+    }else if(orden==="ValoracionMejor"){
       movies = movies.sort((a, b) => b.stars - a.stars);
 
-    }else if(orden==="Duracion"){
+    }
+    else if(orden==="ValoracionPeor"){
+      movies = movies.sort((a, b) => a.stars - b.stars);
+
+    }else if(orden==="Duracionmayor"){
       movies = movies.sort((a, b) => b.duration - a.duration);
+      
+    }else if(orden==="Duracionmenor"){
+      movies = movies.sort((a, b) => a.duration - b.duration);
       
     }
 	}
@@ -63,11 +73,17 @@ import Cartas from "./Cards.svelte";
 
         <input type="radio"  checked={orden==="Alfabetico"} on:change={onChange} value="Alfabetico"> Alfabético
 
-        <input type="radio"  checked={orden==="Anual"} on:change={onChange} value="Anual"> Año
+        <input type="radio"  checked={orden==="Anualmoderno"} on:change={onChange} value="Anualmoderno"> Año de mas moderno a más antiguo
 
-        <input type="radio"  checked={orden==="Valoracion"} on:change={onChange} value="Valoracion"> Valoración
+        <input type="radio"  checked={orden==="Anualantiguo"} on:change={onChange} value="Anualantiguo"> Año de mas antiguo a más moderno
 
-        <input type="radio"  checked={orden==="Duracion"} on:change={onChange} value="Duracion"> Duración
+        <input type="radio"  checked={orden==="ValoracionMejor"} on:change={onChange} value="ValoracionMejor"> Mejor valoradas
+
+        <input type="radio"  checked={orden==="ValoracionPeor"} on:change={onChange} value="ValoracionPeor"> Peor valoradas
+
+        <input type="radio"  checked={orden==="Duracionmayor"} on:change={onChange} value="Duracionmayor"> Duración mayor
+
+        <input type="radio"  checked={orden==="Duracionmenor"} on:change={onChange} value="Duracionmenor"> Duración mayor
 
         <h1 style="color: var(--blue);">Peliculas (número total de peliculas {count})</h1>
         <Cartas   cartas={movies}  />

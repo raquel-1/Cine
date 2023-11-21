@@ -19914,16 +19914,10 @@ export const peliculas = [
   },
 ];
 
-
-
-
-
-
-
 export const peliculasConEstrellas=peliculas.forEach((element) => {
-  let estrellas = (Math.random() * 9 + 1).toFixed(2);//con 2 decimales
-  let minutos = Math.floor(Math.random() * (240 - 80 + 1)) + 80;
+  let estrellas = parseFloat((Math.random() * 9 + 1).toFixed(2));//toFixed(2)con 2 decimales
+  let minutos = parseFloat((Math.random() * (240 - 80) + 80).toFixed(2));
 
-  element.stars = parseFloat(estrellas);// añadimos propiedad "stars" a las peliculas
-  element.duration = minutos;// añadimos propiedad "stars" a las peliculas
+  element.stars = estrellas;// añadimos propiedad "stars" a las peliculas
+  element.duration = minutos;// añadimos propiedad "duration" a las peliculas
 });
