@@ -20028,4 +20028,5 @@ export const peliculasConEstrellas=peliculas.forEach((element) => {
     element.duration = minutos;// añadimos propiedad "duration" a las peliculas
     element.director =nombredirector;// añadimos propiedad "director" a las peliculas
     element.photographer=nombrefotografo;// añadimos propiedad "photographer" a las peliculas
+    element.year=Math.floor(Math.random() * (2024 - 2000 + 1)) + 2000;
 });
