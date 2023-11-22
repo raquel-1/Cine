@@ -106,6 +106,7 @@ https://codepen.io/drehimself/pen/azBmdK
 .card-darkmode{
   padding: 0;
   margin:0;
+  min-height: 82vh;
 }
 
 :global(.card-darkmode#darkmode) {
