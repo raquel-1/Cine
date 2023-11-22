@@ -3,6 +3,7 @@
 import { vermas } from "$stores/store";
 import * as samples from '../data/samples.js';
 let movies = samples.peliculas || [];
+import {darkmode} from "$stores/store";
 export let genreColorAssociations =samples.genreColorAssociations || [];
 
 let movie = movies.filter(movie => movie.title.localeCompare($vermas)==0);
@@ -20,12 +21,13 @@ function saberColor2(genero){
 
 </script>
 
+<div class="card-darkmode" id={$darkmode ? "darkmode" : ""}>
 
 <button  class="btn btn-category" on:click={() => (vermas.update(value => ''))} >volver</button>
 
 {#each movie as m}
 
-<div class="movie-card">
+<div class="movie-card" >
   
     <div class="container">
       
@@ -94,13 +96,22 @@ function saberColor2(genero){
 
   {/each}
 
-
+</div>
 
 <style>
 /**
 https://codepen.io/drehimself/pen/azBmdK
 */
 
+.card-darkmode{
+  padding: 0;
+  margin:0;
+}
+
+:global(.card-darkmode#darkmode) {
+    background-color: black;
+    color: white;
+  }
 .btn-category {
   height: 5rem;
   background-image: none;
