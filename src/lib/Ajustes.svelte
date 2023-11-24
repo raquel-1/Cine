@@ -1,7 +1,5 @@
 <script>
   import Switch from "./Switch.svelte";
-
-
 </script>
 
 <div class="Settings"> 

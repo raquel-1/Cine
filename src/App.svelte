@@ -5,10 +5,6 @@ import Buscador from "$lib/Buscador.svelte";
 import TodasPelis from '$lib/TodasPelis.svelte';
 import Vermas from '$lib/Vermas.svelte';
 import { vermas } from "$stores/store";
-
-
-
-
 </script>
 <body>
 

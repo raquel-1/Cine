@@ -20,10 +20,6 @@
 <style>
   /*Creamos un estilo global, el cual contendra los estilos de nuestro modo oscuro de la pagina*/
   
-  :global(.prin#darkmode) {
-    background-color: black;
-    color: white;
-  }
   .nav {
     width: 100%;
     display: flex;
@@ -79,17 +75,6 @@
 
   @keyframes blink{
     50%{border-color: transparent}
-  }
-
-
-  .prin {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    padding: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
   }
 
 

@@ -5,7 +5,7 @@ import { darkmode } from "$stores/store";
   export let movies = samples.peliculas || [];
   export let cast=samples.cast||{};
 
-  //creamos una variable en la que iran las peliculas que coincidan con la busqueda
+//creamos una variable en la que iran las peliculas que coincidan con la busqueda
  let copyMovies=[];
  let copyCast=[];
 
@@ -30,7 +30,7 @@ function handleSearchTitle(e){
         countMovies=copyMovies.length;
     }      
 }
-function handleSearchCast(e){
+/*function handleSearchCast(e){
     //creamos una variable para guardar el evento de la busqueda
     const p=e.target.value;
     if(p===''){
@@ -46,7 +46,7 @@ function handleSearchCast(e){
         copyCast=[...results]
         countCast=copyCast.length;
     }      
-}
+}*/
 
 </script>
 <div class="prin" id={$darkmode ? "darkmode" : ""}>
@@ -101,10 +101,22 @@ Reparto:<input type="text" placeholder="Buscar..." on:input={handleSearchCast}>
 </div>
 
 <style>
+ :global(.prin#darkmode) {
+    background-color: black;
+    color: white;
+  }
 .svg-darkmode{
   fill: white;
 }
-  
+ .prin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
 .movie-cards{
     width: 100%;
     min-height: 0vh;

@@ -1,13 +1,14 @@
 <script>
 import { darkmode } from "$stores/store";
-//Creamos una funcion para que cuando pulsemos el boton, se actualize el store(variable global) y nos active el modo oscuro(lo contrario pq la funcion en un inico esta a false, por lo tanto la ponemos a true)
+/*Creamos una funcion para que cuando pulsemos el boton, se actualize el store(variable global) y nos active el modo oscuro(lo contrario pq la funcion en un inico
+ esta a false, por lo tanto la ponemos a true)*/
 function handleClick(){
     darkmode.update(darkmode=>!darkmode);
 }
 </script>
 
 <div class="Switch">
-    <!--Si el modo es oscuro hacemos que el circulo se mueva-->
+    <!--Si el modo es oscuro hacemos que el circulo se mueva, sino lo dejamos quieto-->
     <div class={($darkmode?'switch-container on':'switch-container')}>
        <button class="circle" on:click={handleClick}></button>
     </div>
